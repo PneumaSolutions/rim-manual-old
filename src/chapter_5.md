@@ -1,4 +1,5 @@
 # Frequently Asked Questions
+Here are answers to some common questions concerning RIM.
 ## Compatibility
 ### What Platform(s) are supported?
 The initial release of the client is only going to target Windows, but Mac and other devices are definitely on our roadmap. Windows is by and large the easiest operating system to work with when developing a remote access infrastructure, so while it is entirely possible to support RIM on more platforms, the process of implementing support for said platforms may be more involved.
@@ -44,7 +45,7 @@ When utilizing the public cloud, an https connection to <https://getrim.app> is 
     * It downloads some components of RIM in the background so as to reduce installation time and file size.
     * It does not phone home for any other purpose
 * Remote Incident Manager.exe: main executable
-    * This runs continuously on machines that have been configured for unattended access
+    * This runs continuously on machines that have been configured for unattended access. Its purpose is to listen for and initiate unattended access connections requested by the controller.
     * Still fairly light on system resources
     * Phones home only with an anonymous machine ID. No personally identifiable information is ever transferred.
     * Can be shut down via the icon in the system tray for disabling unattended access. A controller deleting a machine from the unattended access group has the same result
