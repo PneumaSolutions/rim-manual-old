@@ -38,7 +38,7 @@ No and no.
 ### What connections would need to be allowed on a network in order for RIM to function?
 When utilizing the public cloud, an https connection to <https://getrim.app> is required. The enterprise server for on-premises or VPC deployments listens on the standard https port (443). Port 80 needs to be open as well, though its only purpose is to facilitate https redirect.
 ### What background processes does RIM run, and are they light on system resources?
-*rim-host-service.exe: target process
+* rim-host-service.exe: target process
     * This is an always-on background process that runs by default as long as RIM is installed.
     * It is very light on system resources
     * It runs with maximum privileges for the purpose of elevating RIM when needed, I.E. when user account control or a similar secure screen appears during a session.
