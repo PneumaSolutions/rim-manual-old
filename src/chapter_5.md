@@ -36,12 +36,28 @@ Yes. All sessions, whether they be direct peer-to-peer connections or connection
 No and no.
 ### What connections would need to be allowed on a network in order for RIM to function?
 When utilizing the public cloud, an https connection to <https://getrim.app> is required. The enterprise server for on-premises or VPC deployments listens on the standard https port (443). Port 80 needs to be open as well, though its only purpose is to facilitate https redirect.
-
+### What background processes does RIM run, and are they light on system resources?
+*rim-host-service.exe: target process
+    * This is an always-on background process that runs by default as long as RIM is installed.
+    * It is very light on system resources
+    * It runs with maximum privileges for the purpose of elevating RIM when needed, I.E. when user account control or a similar secure screen appears during a session.
+    * It downloads some components of RIM in the background so as to reduce installation time and file size.
+    * It does not phone home for any other purpose
+* Remote Incident Manager.exe: main executable
+    * This runs continuously on machines that have been configured for unattended access
+    * Still fairly light on system resources
+    * Phones home only with an anonymous machine ID. No personally identifiable information is ever transferred.
+    * Can be shut down via the icon in the system tray for disabling unattended access. A controller deleting a machine from the unattended access group has the same result
+<!-- end -->
 ## Remote Accessibility Module
 ### Is there anything the target machine needs to configure for first-time use of the Remote Accessibility Module?
 Not at all! There are no dialogue boxes or anything of the sort. In fact, the self-contained copy of NVDA that the target machine will run does not speak, so the target will not even have to concern themselves with it.
 ### Does the Remote Accessibility Module work on secure screens such as User Account Control?
 Yes! Since the RIM host runs with elevated privileges, this allows us to leverage the Remote Accessibility Module for secure screens. Gone are the days of getting trapped in a user account control dialogue in the middle of a program installation!
+### Will the Remote Accessibility Module run on a portable copy of NVDA?
+Yes, and this includes secure screens since the RIM host process takes care of elevation.
+### Will the Remote Accessibility Module run on the Windows Store version of NVDA?
+This is not possible due to the Windows Store version of NVDA not allowing the use of addons. You'll have to either use a portable version of NVDA, or have your IT install the standard version of NVDA on your machine.
 ### Will my NVDA addons transfer over to this version of NVDA?
 Not automatically, and this is generally not advisable anyway. The NVDA included in the accessibility module is designed to be a lightweight, trimmed down, secure solution to provide speech in an environment that otherwise wouldn't have it any other way. That said, if you are using an application for which an NVDA addon is the only way it would be accessible, then you can install that addon individually, though at this point we lack a mechanism to flush the addons directory of all user-generated content upon closing the RIM session. It's worth noting that this version of NVDA contains an addon to communicate with the RIM session, which should not be removed.
 ## Unattended Sessions

@@ -1,10 +1,10 @@
-Copyright 2022 [Pneuma Solutions](https://www.pneumasolutions.com)
+Copyright © 2022 [Pneuma Solutions](https://www.pneumasolutions.com)
 # Welcome
 *Remote Incident Manager* (RIM) is a powerful, fully accessible remote desktop application used to provide technical support, training, and system administration to clients both visually impaired and sighted alike. In addition to providing a streamlined remote desktop experience, RIM has a few unique qualities previously unseen in other remote desktop applications
 ## Why RIM?
 If you are coming from previous remote desktop applications or screen reader-based assistance tools, you will find that RIM significantly streamlines your workflow.
 ### Inclusive Design
-Remote Incident Manager is truly a first of its kind. It is the first fully accessible remote support solution that can be used by both blind and sighted support pros and users. Thus, RIM can fully replace an existing solution, as it provides everything you could ask for in a secure remote support solution, plus complete accessibility.
+Remote Incident Manager is truly a first of its kind. It is the first *fully accessible* remote support solution that can be used by both blind and sighted support pros and end users. Thus, RIM can fully replace an existing solution, as it provides everything you could ask for in a secure remote support solution, plus complete accessibility.
 ### Easy to Install and Deploy
 In a one-to-one situation, the installation could not be simpler. A one-click instant install ensures that the client's process for setting up their machine to receive assistance will be quick and painless. What's more, the installation process launches RIM after it finishes, so they will be instantly ready to connect.
 For enterprise configurations, a web-based interface is utilized in order to deploy RIM on your controller and target machines. In addition, the installation itself can be tweaked via command line arguments which can in turn be utilized in an automated deployment.
