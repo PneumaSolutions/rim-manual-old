@@ -8,7 +8,7 @@ The enterprise server supports a wide range of Linux flavors as well as Windows.
 ### Our company is still using Windows 7. Will RIM work under this configuration?
 Yes, RIM supports Windows 7.
 ## General Session Troubleshooting
-### I'm controlling a Windows Server or cloud-based virtual machine with a screen-reader installed, and do not hear any sound. What's going on?
+### I'm controlling a Windows Server or cloud-based virtual machine with a screen reader installed, and do not hear any sound. What's going on?
 In order for RIM to provide sound, audio drivers do need to be active. Windows Server installations generally don't activate audio services due to the fact that there's really no practical reason to do so. Unfortunately for us this means that there's a little more advanced prep needed to get sound. Not to worry, however, as RIM can fill in despite the lack of sound.  
 1. Use the quit command of whichever screen reader is running on the server. Insert+Q followed by enter in NVDA's case, insert+f4 followed by enter for JAWS. You will get confirmation that the screen reader is unloaded when RIM informs you that no screen reader is running on the remote host.
 1. Switch on the Remote Accessibility Module.
@@ -23,7 +23,9 @@ Certainly! We do accommodate as many use cases as we can.
 * Anyone can assist a user over RIM for free for up to 30 minutes a day. So if you need to help someone install some software, fix a problem real quick, or send over a few files, we've got you covered.
 * There are, of course, going to be situations where a particular issue requires a little more time. Or maybe you're assisting someone learning a new piece of software and might be connecting on and off over the next few days. That's where our day passes come in. You can get a single day pass, a straight three day pass, or a discounted pack of three day passes that need not be used consecutively.
 ### How do day passes work? Does the clock start immediately upon payment, or on the day I initiate the session?
-Day passes only begin when the controller initiates the session. So if the target's machine fails on them requiring a trip to the shop and a same-day turnaround is not possible, you can simply hold off until the machine is back in good shape and your day pass will still be waiting for you. Similarly, the day pass three-pack does not have to be used in three straight days. You may use one day tomorrow, and the remaining days a week from now.
+Day passes only begin when the controller initiates the session. So if the target's machine fails on them requiring a trip to the shop and a same-day turnaround is not possible, you can simply hold off until the machine is back in good shape and your day pass will still be waiting for you.
+
+Similarly, the day pass three-pack does not have to be used in three straight days. You may use one day tomorrow, and the remaining days a week from now.
 ### I hold an active one-to-one or one-to-three subscription. Would I still be able to assist a user outside the group for up to 30 minutes?
 Yes! Your 30 minute daily allotment is still present for any machine outside of your subscription.
 ### I have a one-to-one subscription, and the target computer underwent a hardware upgrade. Will Rim count this as a machine switch?

@@ -5,12 +5,12 @@ A few things will happen immediately after the connection is established.
 * You will be informed about the status of the running screen reader, or lack thereof, on the client's machine.
 * If the client is running a screen reader, a toast notification informing the user that the remote session has begun will provide instant confirmation that the user's system audio is working.
 * Last but not least, all keyboard and mouse input will immediately be directed to the target computer. To direct control back to your machine, do either of the following:
-    * press windows+shift+escape
-    * right click the RIM window's title bar
+    * press windows+shift+escape.
+    * right click the RIM window's title bar.
     * left click the RIM icon.
 <!-- end -->
 ## Remote Control Zone
-At this point, you're all set to perform whatever tasks need doing on the client side. Should you need to switch back to controlling your own machine, bring up the RIM menu, then locate and activate the "Minimize session" option. You will be taken back to your machine until you switch back into the session window. When you go back into the session window, keyboard control will once again be directed to the client computer.  
+At this point, you're all set to perform whatever tasks need doing on the client side. Should you need to switch back to controlling your own machine, bring up the RIM menu, then select the "Minimize session" option. You will be taken back to your machine until you switch back into the session window. When you go back into the session window, keyboard control will once again be directed to the client computer.  
 Once you're done, either the controller or the target can go into the RIM menu and choose the "End Session" option. When the session ends, the target machine will get a toast notification informing them of this. At the same time, a feedback window will appear on the controller asking how the session went.
 ## The RIM Menu
 As mentioned earlier, accessing the RIM menu directs you back to your machine. There are a number of options in this menu. They include:
@@ -19,6 +19,7 @@ As mentioned earlier, accessing the RIM menu directs you back to your machine. T
 * Start/stop Voice Conversation: Allows you to toggle the voice chat on or off for your session.
     * Note that this option is unavailable in unattended sessions as they do not support voice chat.
 * Start Remote Accessibility: This option appears when no screen reader is running on the remote computer. This will enable speech on your end, but the client will not need to worry about hearing speech.
+* Send Control+Alt+Delete: Sends this keystroke to the remote machine.
 * Request Unattended Access: Allows you to send a request for unattended access to the client computer. This is useful if you are a sysadmin and need to perform routine maintenance, or even for something as simple as controlling your home machine while on the go.
 * View Connection Details: Provides a detailed lowdown on your connection
 * End Session: Terminates the session.
@@ -26,19 +27,19 @@ As mentioned earlier, accessing the RIM menu directs you back to your machine. T
 ## File Transfers
 File transfers are quick and easy, as you can literally copy/paste across the session.
 1. Bring up the RIM menu, and click on "Minimize Session." Control will be directed back to your computer.
-1. Locate the file(s) and/or folder(s) you want to transfer using your file manager of choice. It doesn't matter if this is Windows Explorer, or a third party solution such as Total Commander.
+1. Select the file(s) and/or folder(s) you want to transfer using your file manager of choice. It doesn't matter if this is Windows Explorer, or a third party solution such as Total Commander.
 1. Copy the selected contents to the clipboard in the usual way.
 1. Switch back to the remote session, and locate the folder on the target machine where you wish to paste the content.
 1. Last but not least, paste as you normally would.
 <!-- end -->
-And just like that, the file will appear on their machine momentarily! Note that the transfer time will depend entirely on the size of the content being sent as well as your network speed.
+And just like that, the content will appear on their machine momentarily! Note that the transfer time will depend entirely on the size of the content being sent as well as your network speed.
 ## Remote Accessibility Module
 Whether you're assisting a user who doesn't use a screen reader, or you're diagnosing an issue with a malfunctioning screen reader, RIM is fully prepared to come to your aid. The remote accessibility module consists of two components:
 * An addon for the [NVDA screen reader](https://nvaccess.org) that enables the screen reader to receive output from the remote computer
 * A self-contained, portable version of NVDA that runs on the client's machine only when called upon by initiating the remote accessibility on the controller side. This version of NVDA is tweaked so as to not get in the client's way, as it does not speak. Instead, it pipes the output through to the running copy of NVDA on the controller side. This way, you can accessibly assist a client without them having to install or even download a screen reader.
 ### Setup Procedure
 For first-time initialization of the accessibility module, here is what you will need to do:
-1. Press windows+shift+escape to launch the RIM menu.
+1. Bring up the RIM menu.
 1. Select the "Start Remote Accessibility" option.
 1. You will be asked to install an addon that will allow your copy of NVDA to communicate with the remote computer during the session. Accept the installation prompts, and wait for NVDA to restart.
 1. By now, the remote accessibility module will be fully initialized, and you will hear speech output as you control the remote computer.
@@ -64,12 +65,13 @@ Please note: Voice conversations are not supported during unattended sessions.
 ### Renaming an Unattended Computer
 If you wish to rename an unattended computer:
 1. Navigate to the computer you wish to rename.
-1. Locate the "Rename" button and click on it.
+1. Click on the "Rename" button.
 1. Give the machine a new name, then press enter.
 <!-- end -->
 ### Revoking Unattended Access
 If you no longer want your machine to be controlled unattended, you can revoke the controller's access. You do not need to be in a session in order to do this.
-1. Access the Remote Incident Manager icon in your system tray. Press windows+b, then space, then left or right arrow until you find the icon.
+1. Access the Remote Incident Manager icon in your system tray.
+    1. If using the keyboard, press windows+b, then space, then left or right arrow until you find the icon.
 1. Right click this icon, or press the applications or shift+f10 key.
 1. Select the "Revoke Unattended Access" option.
 1. You will arrive at a list of computers, select the one you want to revoke.
