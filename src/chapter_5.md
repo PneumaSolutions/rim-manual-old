@@ -31,7 +31,9 @@ Yes! Your 30 minute daily allotment is still present for any machine outside of 
 ### I have a one-to-one subscription, and the target computer underwent a hardware upgrade. Will Rim count this as a machine switch?
 Only if RIM needs to be reinstalled. So, while a hard drive upgrade or any other situation requiring a Windows reinstallation would be considered a machine switch, upgrading the ram would not.
 ### Our company bought the pro subscription, but we have two techs - one that does help-desk during the day, and a system maintenance tech that works in the evening. Would we be able to assign the evening sysadmin a controller seat?
-Definitely. We offer an extra controller seat for $50 a month - $500 a year - to accompany the pro plan if needed. While the two controllers can't have two simultaneous sessions going on at once, this will make it easier for two controllers at two different workstations or offices to provide remote support.
+Definitely. In situations where multiple technitions will be using RIM, we offer up to two (2) additional controller seats for $50 a month per seat - $500 a year per seat - to accompany the pro plan if needed. This will make it easier for multiple controllers at different workstations or offices to provide remote support.
+
+If you have multiple controller seats, you can purchase additional channels for them so that sessions can run simultaneously. Each additional channel is $50 a month, or $500 a year.
 ## Security
 ### Are RIM sessions encrypted?
 Yes. All sessions, whether they be direct peer-to-peer connections or connections using a relay fallback, are encrypted end to end using Datagram Transport Layer Security (DTLS).
