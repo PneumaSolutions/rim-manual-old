@@ -9,12 +9,7 @@ The enterprise server supports a wide range of Linux flavors as well as Windows.
 Yes, RIM supports Windows 7.
 ## General Session Troubleshooting
 ### I'm controlling a Windows Server or cloud-based virtual machine with a screen reader installed, and do not hear any sound. What's going on?
-In order for RIM to provide sound, audio drivers do need to be active. Windows Server installations generally don't activate audio services due to the fact that there's really no practical reason to do so. Unfortunately for us this means that there's a little more advanced prep needed to get sound. Not to worry, however, as RIM can fill in despite the lack of sound.  
-1. Use the quit command of whichever screen reader is running on the server. Insert+Q followed by enter in NVDA's case, insert+f4 followed by enter for JAWS. You will get confirmation that the screen reader is unloaded when RIM informs you that no screen reader is running on the remote host.
-1. Switch on the Remote Accessibility Module.
-1. Now that you have speech, download a utility that will give your server a soundcard. One such utility is [Virtual Audio Cable,](https://vac.muzychenko.net/en/) which is free for personal use.
-1. Provided the installation was successful, you should now have working sound on the server. You can test this by reloading your screen reader of choice. If all goes well, you should hear it start up and begin talking.
-<!-- end -->
+Please ensure RIM version 0.10.9 or later is installed on both the target and controller, as this issue has been addressed.
 ## Pricing and Payments
 ### So, getting help from a person over RIM is totally free, right?
 You bet! The subscriptions and/or one-off payments are for individuals and organizations seeking to offer remote assistance. No need to worry about getting a subscription if you're the person receiving help.
