@@ -62,12 +62,23 @@ Now with that out of the way, here is how we will start an unattended session.
 <!-- end -->
 That's it! You are now connected and will be dropped into the remote control zone.  
 Please note: Voice conversations are not supported during unattended sessions.
+### Creating a Shortcut for an Unattended Session
+For extra convenience, you can create desktop shortcuts that allow you to automatically launch unattended sessions. In order to do this:
+1. Access the list of unattended computers, and select the one you want to create a shortcut for.
+1. Click on the "Create Shortcut" button.
+1. A shortcut will be automatically added to your desktop.
+<!-- end -->
+Now, when you activate this shortcut, you will automatically land in the remote session.
+#### More Ways to use Unattended Session Shortcuts
+Unattended session shortcuts, like any other shortcuts, can have global hotkeys associated with them. This can be extremely useful if you are a maintenance tech managing multiple computers in a workgroup. For example, if your workgroup consists of 6 computers that you perform routine maintenance on, you could configure Alt+Control+1 through 6 as hotkeys for each respective machine. This ought to greatly speed up your workflow.  
+In addition, you can call up an unattended session via the run box if you copy the shortcut into your user directory. Once you've copied the shortcut, you may start an unattended session by typing your-session-name.url in the run box.
 ### Renaming an Unattended Computer
 If you wish to rename an unattended computer:
 1. Navigate to the computer you wish to rename.
 1. Click on the "Rename" button.
 1. Give the machine a new name, then press enter.
 <!-- end -->
+Note that your session shortcuts will continue to work even after renaming unattended machines.
 ### Revoking Unattended Access
 If you no longer want your machine to be controlled unattended, you can revoke the controller's access. You do not need to be in a session in order to do this.
 1. Access the Remote Incident Manager icon in your system tray.
