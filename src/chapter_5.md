@@ -34,7 +34,8 @@ Only if RIM needs to be reinstalled. So, while a hard drive upgrade or any other
 ### Our company bought the pro subscription, but we have two techs - one that does help-desk during the day, and a system maintenance tech that works in the evening. Would we be able to assign the evening sysadmin a controller seat?
 Definitely. In situations where multiple technitions will be using RIM, we offer up to two (2) additional controller seats for $50 a month per seat - $500 a year per seat - to accompany the pro plan if needed. This will make it easier for multiple controllers at different workstations or offices to provide remote support.
 
-If you have multiple controller seats, you can purchase additional channels for them so that sessions can run simultaneously. Each additional channel is $50 a month, or $500 a year. Following is a price breakdown for all possible pro plans.
+If you have multiple controller seats, you can purchase additional channels for them so that sessions can run simultaneously. Each additional channel is $50 a month, or $500 a year. Following is a price breakdown for all possible pro plans.  
+
   Number of Controllers | Number of Channels | Price
   ---|---|---
   1 | 1 | $999
