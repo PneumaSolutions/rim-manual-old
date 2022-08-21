@@ -19,6 +19,7 @@ As mentioned earlier, accessing the RIM menu directs you back to your machine. T
 * Start/stop Voice Conversation: Allows you to toggle the voice chat on or off for your session.
     * Note that this option is unavailable in unattended sessions as they do not support voice chat.
 * Start Remote Accessibility: This option appears when no screen reader is running on the remote computer. This will enable speech on your end, but the client will not need to worry about hearing speech.
+* Reboot and Reconnect: Allows you to reboot the computer and automatically reconnect the session.
 * Send Control+Alt+Delete: Sends this keystroke to the remote machine.
 * Request Unattended Access: Allows you to send a request for unattended access to the client computer. This is useful if you are a sysadmin and need to perform routine maintenance, or even for something as simple as controlling your home machine while on the go.
 * View Connection Details: Provides a detailed lowdown on your connection
@@ -45,6 +46,9 @@ For first-time initialization of the accessibility module, here is what you will
 1. By now, the remote accessibility module will be fully initialized, and you will hear speech output as you control the remote computer.
 <!-- end -->
 If you need to stop the remote accessibility module on the remote machine, simply press insert+q as you normally would to quit NVDA. The RIM version of NVDA will not prompt you before quitting.
+## Rebooting and Reconnecting
+Whether you're installing system updates or working your way out of a system hang, RIM has got you covered during the reboot process. Selecting the "Reboot and Reconnect" option off the RIM menu will allow you to either perform a graceful reboot or an emergency reboot, depending on what state the computer is in. While the computer is rebooting, RIM will inform you that reconnection attempts are being made.  
+Note that if a software installation causes the target machine to reboot, RIM will recognize this and perform the reconnection attempt automatically upon reboot.
 ## Requesting Unattended Access
 During a one-off remote control session, you may request unattended access to the remote machine if you are the controller. This will allow you to connect to this remote computer without the user having to start RIM, enter the keyword, or even be near the computer. This is useful if you are a sysadmin performing routine maintenance on computers in your workgroup. You may also want to allow this for your home computer should you need to access it from someplace else.  
 In order to configure unattended access:
@@ -58,7 +62,7 @@ In order to configure unattended access:
 Now with that out of the way, here is how we will start an unattended session.
 1. Start RIM in controller mode.
 1. Rather than entering a keyword, locate and activate the"Start an unattended session instead" button.
-3. When you click this, a list of machines will appear. Choose the one you want, then hit enter.
+1. When you click this, a list of machines will appear. Choose the one you want, then hit enter.
 <!-- end -->
 That's it! You are now connected and will be dropped into the remote control zone.  
 Please note: Voice conversations are not supported during unattended sessions.
