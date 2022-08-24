@@ -45,7 +45,7 @@ This version includes some changes under the hood. In particular, we've included
 ## 0.10.2
 Fixed a conflict between the RIM Client Support NVDA addon and the Dropbox addon.
 ## 0.10.1
-* You can now pre-order the first year of your subscription to RIM Pro for $999. The link to pre-order will be available in the feedback window when you finish a remote session. Or you can follow the direct link here: Pre-order RIM Pro.
+* You can now pre-order the first year of your subscription to RIM Pro for $999. The link to pre-order will be available in the feedback window when you finish a remote session. Or you can follow the direct link here: [Pre-order RIM Pro.](https://getrim.app/signup/rim_preorder)
 * If you have unattended target machines in your RIM account, the button to start an unattended session is now more reliably displayed on the “Provide Help” screen.
 * When flipping a session, the original controller can now flip the session back, by opening the RIM menu with Windows+Shift+Escape.
 <!-- end -->
