@@ -5,6 +5,7 @@
 * There's a new menu option, "Lock the Target Machine", which is equivalent to pressing Windows+L on the target.
 * RIM now has an "About" window, where you can check the version number, contact Pneuma Solutions for support and feedback, read the manual, and view the version change log.
 * RIM no longer prompts for feedback at the end of a session or when closing the "Provide Help" window.
+<!-- end -->
 ## 0.11.4
 This update fixes a few bugs in the reboot and reconnect process. We haven't yet diagnosed everything that has been reported, but we were able to find and fix a few issues in our own testing.
 ## 0.11.3

@@ -11,20 +11,25 @@ A few things will happen immediately after the connection is established.
 <!-- end -->
 ## Remote Control Zone
 At this point, you're all set to perform whatever tasks need doing on the client side. Should you need to switch back to controlling your own machine, bring up the RIM menu, then select the "Minimize session" option. You will be taken back to your machine until you switch back into the session window. When you go back into the session window, keyboard control will once again be directed to the client computer.  
-Once you're done, either the controller or the target can go into the RIM menu and choose the "End Session" option. When the session ends, the target machine will get a toast notification informing them of this. At the same time, a feedback window will appear on the controller asking how the session went.
+Once you're done, either the controller or the target can go into the RIM menu and choose the "End Session" option. When the session ends, the target machine will get a toast notification informing them of this.
 ## The RIM Menu
 As mentioned earlier, accessing the RIM menu directs you back to your machine. There are a number of options in this menu. They include:
 * Minimize Session: brings control back to your machine as described above
 * Flip Session: Allows your client to remote control your machine and hear its audio. As the original controller, you can flip the session back by selecting this option a second time.
+    * You can also use the keyboard shortcut Windows+Shift+F to flip the session back and forth.
 * Start/stop Voice Conversation: Allows you to toggle the voice chat on or off for your session.
     * Note that this option is unavailable in unattended sessions as they do not support voice chat.
 * Start Remote Accessibility: This option appears when no screen reader is running on the remote computer. This will enable speech on your end, but the client will not need to worry about hearing speech.
 * Reboot and Reconnect: Allows you to reboot the computer and automatically reconnect the session.
 * Send Control+Alt+Delete: Sends this keystroke to the remote machine.
 * Request Unattended Access: Allows you to send a request for unattended access to the client computer. This is useful if you are a sysadmin and need to perform routine maintenance, or even for something as simple as controlling your home machine while on the go.
+* Lock the Target Machine: Performs the equivalent of Windows+L.
 * View Connection Details: Provides a detailed lowdown on your connection
 * End Session: Terminates the session.
     * Remember that this option is available to both sides of the session.
+    * This is also possible via the keyboard command Windows+Shift+D.
+<!-- end -->
+
 ## File Transfers
 File transfers are quick and easy, as you can literally copy/paste across the session.
 1. Bring up the RIM menu, and click on "Minimize Session." Control will be directed back to your computer.
@@ -48,7 +53,7 @@ For first-time initialization of the accessibility module, here is what you will
 If you need to stop the remote accessibility module on the remote machine, simply press insert+q as you normally would to quit NVDA. The RIM version of NVDA will not prompt you before quitting.
 ## Rebooting and Reconnecting
 Whether you're installing system updates or working your way out of a system hang, RIM has got you covered during the reboot process. Selecting the "Reboot and Reconnect" option off the RIM menu will allow you to either perform a graceful reboot or an emergency reboot, depending on what state the computer is in. While the computer is rebooting, RIM will inform you that reconnection attempts are being made.  
-Note that if a software installation causes the target machine to reboot, RIM will recognize this and perform the reconnection attempt automatically upon reboot.
+Note that if a software installation causes the target machine to reboot, RIM will recognize this and attempt a reconnection. Additionally, if you volluntarily reboot the machine in the usual way, i.e. outside of the RIM menu, you will be asked if you wish to reconnect the session.
 ## Requesting Unattended Access
 During a one-off remote control session, you may request unattended access to the remote machine if you are the controller. This will allow you to connect to this remote computer without the user having to start RIM, enter the keyword, or even be near the computer. This is useful if you are a sysadmin performing routine maintenance on computers in your workgroup. You may also want to allow this for your home computer should you need to access it from someplace else.  
 In order to configure unattended access:
