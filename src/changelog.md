@@ -1,4 +1,10 @@
 # Change Log
+## 0.11.6
+* RIM now has a new option for registering a machine for unattended access under your RIM account without having to start a remote session using a keyword. On the machine that you want to register, press the new button called "Register This Machine for Unattended Access", on the Receive Help screen. Then log into your RIM account if you haven't already done so on that machine, enter a name for the machine, and you're done. Note that we're still working on a way to customize the RIM installer, to enable mass deployment and make it as easy as possible to set up unattended access on machines that you don't already have access to.
+* RIM now prevents you from trying to open an unattended connection to the same machine where you're running the controller.
+* We're now experimenting with a third hotkey to open the RIM menu: Windows+Shift+Backspace. That means there are now three options: Windows+Shift+Escape, Windows+Shift+Backspace, and Control+Shift+Backspace. We haven't yet made a final decision on which hotkey or hotkeys to keep, but we will decide before the end of the public beta. We appreciate your feedback.
+* Most options on the RIM menu now have single-letter keyboard shortcuts that you can press once you've opened the menu.
+* This update introduces a more reliable solution to the intermittent problems that users have reported with JAWS not recognizing keyboard input from RIM. Please let us know if you continue to have problems with this scenario.
 ## 0.11.5
 * This update introduces two new hotkeys. Windows+Shift+D disconnects the session when pressed on either side. For the controller, Windows+Shift+F flips the session.
 * This update adds safeguards against keyboard modifiers becoming stuck on either machine.
