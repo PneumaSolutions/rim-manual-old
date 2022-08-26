@@ -55,16 +55,26 @@ If you need to stop the remote accessibility module on the remote machine, simpl
 Whether you're installing system updates or working your way out of a system hang, RIM has got you covered during the reboot process. Selecting the "Reboot and Reconnect" option off the RIM menu will allow you to either perform a graceful reboot or an emergency reboot, depending on what state the computer is in. While the computer is rebooting, RIM will inform you that reconnection attempts are being made.  
 Note that if a software installation causes the target machine to reboot, RIM will recognize this and attempt a reconnection. Additionally, if you volluntarily reboot the machine in the usual way, i.e. outside of the RIM menu, you will be asked if you wish to reconnect the session.
 ## Requesting Unattended Access
-During a one-off remote control session, you may request unattended access to the remote machine if you are the controller. This will allow you to connect to this remote computer without the user having to start RIM, enter the keyword, or even be near the computer. This is useful if you are a sysadmin performing routine maintenance on computers in your workgroup. You may also want to allow this for your home computer should you need to access it from someplace else.  
-In order to configure unattended access:
-1. While in an interactive session, bring up the RIM menu.
+RIM allows you, as the controller, to configure machines for unattended access. This allows you to provide remote assistance without the user having to launch RIM, enter a keyword, or even be near the computer. This is useful if you are a sysadmin performing routine maintenance on computers in your workgroup. You may also want to allow this for your home computer should you need to access it from someplace else.  
+There are two ways to configure machines for unattended access.
+## During an Interactive Session
+1. Bring up the RIM menu.
 1. Select "Request Unattended Access."
 1. You will be asked to give this machine a name. Enter a personal name for the machine, or if applicable, the machine ID as it appears in your workgroup.
 1. Press enter.
 1. On the client machine, a dialogue pops up asking the user if they're fine with their computer being set up for unattended access. If they answer yes, then you will get a prompt informing you that unattended access has been approved.
 <!-- end -->
-
-Now with that out of the way, here is how we will start an unattended session.
+## Registering a Machine to your RIM account
+Should you wish to register one of your own machines for unattended access, you can do so without having to start an interactive session with the machine. 
+1. Start RIM in Receive Help Mode.
+1. Click on the "Register This Machine for Unattended Access" button.
+1. Enter your email, then click next.
+1. Wait for the two-step login code to arrive, enter it, then you should be logged in.
+1. Give the machine a name, then activate the "Register Machine" button.
+1. Your machine will be registered to your account, which will allow any controller machines logged into your RIM account to connect to this machine.
+<!-- end -->
+## Getting Connected
+Now that we've registered the machine for unattended access, here is how we will start a session.
 1. Start RIM in controller mode.
 1. Rather than entering a keyword, locate and activate the"Start an unattended session instead" button.
 1. When you click this, a list of machines will appear. Choose the one you want, then hit enter.
