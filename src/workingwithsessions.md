@@ -5,7 +5,7 @@ A few things will happen immediately after the connection is established.
 * You will be informed about the status of the running screen reader, or lack thereof, on the client's machine.
 * If the client is running a screen reader, a toast notification informing the user that the remote session has begun will provide instant confirmation that the user's system audio is working.
 * Last but not least, all keyboard and mouse input will immediately be directed to the target computer. To direct control back to your machine, do either of the following:
-    * press Control+Shift+Backspace.
+    * press Windows+Shift+Backspace.
     * right click the RIM window's title bar.
     * left click the RIM icon.
 <!-- end -->
