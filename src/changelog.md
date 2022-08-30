@@ -1,4 +1,9 @@
 # Change Log
+## 0.12.1
+* The Control+Shift+Backspace hotkey is no longer active in RIM. The official hotkey is now Windows+Shift+Backspace. Windows+Shift+Escape also remains available during a session.
+* RIM's new main hotkey, Windows+Shift+Backspace, is now active at all times on machines where RIM is installed, unless another application claims the hotkey first. When a RIM session is active on the controller, this hotkey opens the RIM menu if the session window is focused, or focuses the session window if it's in the background. On the target, this hotkey opens the RIM target menu while the session is active. On either side, if a session is not active, this hotkey opens the RIM window to start a new session.
+* When requesting unattended access, RIM now reliably focuses the approval dialog on the target machine.
+* Updated the remote accessibility module.
 ## 0.12.0
 You can now create a pre-configured installer that will automatically register all machines on which it is installed as unattended targets in your RIM account.
 
