@@ -1,4 +1,11 @@
 # Change Log
+## 0.12.0
+You can now create a pre-configured installer that will automatically register all machines on which it is installed as unattended targets in your RIM account.
+
+To do this, use the new button called "Create a Pre-Configured Target Installer", on the "Provide Help" screen. You will then need to enter a base name for the target machine(s); RIM will automatically add the host name of each target machine to this base name. Once target machines are registered, you can rename them as with any unattended target. You can also set the expiration date of the installer, which must be between 7 and 30 days. Once RIM has created the installer, you'll get a link that you can either share directly with the target users, or download yourself so you can share the installer some other way.
+
+Note that when a target user runs the pre-configured installer, it will first show them a confirmation dialog which explains what the installer will do. This dialog includes the name of the controller who created the installer. This confirmation step is designed to prevent abuse. A completely silent mode will be available for enterprise customers.
+
 ## 0.11.6
 * RIM now has a new option for registering a machine for unattended access under your RIM account without having to start a remote session using a keyword. On the machine that you want to register, press the new button called "Register This Machine for Unattended Access", on the Receive Help screen. Then log into your RIM account if you haven't already done so on that machine, enter a name for the machine, and you're done. Note that we're still working on a way to customize the RIM installer, to enable mass deployment and make it as easy as possible to set up unattended access on machines that you don't already have access to.
 * RIM now prevents you from trying to open an unattended connection to the same machine where you're running the controller.
