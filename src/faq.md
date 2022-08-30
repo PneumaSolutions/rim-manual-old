@@ -17,7 +17,7 @@ Currently, we offer relays in the following locations:
 * Warsaw, Poland
 * Bangalore, India
 * Singapore
-*Sidney, Australia
+* Sidney, Australia
 * Sao Paulo, Brazil
 <!-- end -->
 
