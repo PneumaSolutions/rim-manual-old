@@ -13,8 +13,8 @@ Unlike Windows Remote Desktop or other similar applications, a remote session sa
 ### Fast and stable connections
 Because RIM uses the latest advancements in direct computer-to-computer connections, the responsiveness is head and shoulders above other solutions. While RIM's central service initiates the connection, it gets out of your way once the connection is established. All this without the need to make cumbersome and invasive changes to network configurations.
 ### High Quality Audio
-Remote Incident Manager uses the latest advancements in real-time audio encoding technology to provide extremely responsive, high-fidelity stereo audio. Any audio that is playing on the user's machine is heard over the remote connection.
-### Visual Output
+Remote Incident Manager uses the latest advancements in real-time audio encoding technology to provide extremely responsive, high-fidelity stereo audio. Any and all audio that is playing on the user's machine is heard over the remote connection.
+### High-Quality Visual Output
 Again, Remote Incident Manager is designed to replace previous solutions, rather than be used alongside them. Thus, RIM's screen output is equally as responsive and stable. Using the mouse is fully supported as well.
 ### Voice Communication
 Gone are the days of having to place a separate phone call or web conference alongside the remote session. RIM provides crystal clear, low-latency voice communication right inside your session.

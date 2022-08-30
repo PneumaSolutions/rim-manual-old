@@ -1,15 +1,31 @@
 # Frequently Asked Questions
-Here are answers to some common questions concerning RIM.
+Here are answers to some common questions concerning RIM. When faced with an issue, please refer to this document whenever possible. If your question is not covered, please [Contact us.](https://pneumasolutions.com/contact/)
 ## Compatibility
 ### What Platform(s) are supported?
 The initial release of the client is only going to target Windows, but Mac and other devices are definitely on our roadmap. Windows is by and large the easiest operating system to work with when developing a remote access infrastructure, so while it is entirely possible to support RIM on more platforms, the process of implementing support for said platforms may be more involved.
-
-The enterprise server supports a wide range of Linux flavors as well as Windows desktop and server operating systems.
 ### Our company is still using Windows 7. Will RIM work under this configuration?
 Yes, RIM supports Windows 7.
+## Connection Information
+### Generally speaking, how responsive is RIM?
+The roundtrip latency during an RIM session is extremely minimal. Because we don't rely on a central service, most of the time your connections are direct from one computer to another - this is what is known as peer-to-peer. If your network configuration doesn't allow for peer-to-peer connections, we fall back to any number of relays located around the world rather than relying on one central server. Thus, even then your latency will still be farely minimal.
+### Where are your relays located?
+Currently, we offer relays in the following locations:
+* U.S.
+    * Virginia
+    * California
+* Teronto, Canada
+* Warsaw, Poland
+* Bangalore, India
+* Singapore
+*Sidney, Australia
+* Sao Paulo, Brazil
+<!-- end -->
+
 ## General Session Troubleshooting
-### I'm controlling a Windows Server or cloud-based virtual machine with a screen reader installed, and do not hear any sound. What's going on?
-Please ensure RIM version 0.10.9 or later is installed on both the target and controller, as this issue has been addressed.
+### The target machine to which I am connected doesn't respond properly to keyboard commands that work fine on my keyboard. What's going on?
+This could be due to a conflict in keyboard layouts. On rare occasions, if a keyboard layout is different enough from your own it may confuse RIM. Should that occur, please contact us with a report containing information about the keyboard layout of both machines.
+
+
 ## Pricing and Payments
 ### So, getting help from a person over RIM is totally free, right?
 You bet! The subscriptions and/or one-off payments are for individuals and organizations seeking to offer remote assistance. No need to worry about getting a subscription if you're the person receiving help. In fact, you do not even have to set up an account if you are merely receiving help.
@@ -28,7 +44,7 @@ No. Rest assured that your accumulation of day passes will be waiting patiently 
 ### What happens if I connect to another machine on the day an incident pass has been used?
 That depends. If the machine is within your subscription, I.E. if you're accessing your home machine while on the road, then it's business as usual. Any other connections that aren't the initial target you connected to will work under the usual 30 minute allotment.
 ### I hold an active one-to-one or one-to-three subscription. Would I still be able to assist a user outside the group for up to 30 minutes, or via a pass?
-Yes! Your 30 minute daily allotment is still present for any machine outside of your subscription. Passes are also still available while you hold a subscription.
+Yes! Your 30 minute daily allotment is still present for any machine outside of your subscription. Additionally, acquiring a subscription does not replace any existing passes you may have.
 ### I have a one-to-one subscription, and the target computer underwent a hardware upgrade. Will Rim count this as a machine switch?
 Only if RIM needs to be reinstalled. So, while a hard drive upgrade or any other situation requiring a Windows reinstallation would be considered a machine switch, upgrading the ram would not.
 ### Our company bought the pro subscription, but we have two techs - one that does help-desk during the day, and a system maintenance tech that works in the evening. Would we be able to assign the evening sysadmin a controller seat?
@@ -48,12 +64,17 @@ If you have multiple controller seats, you can purchase additional channels for 
 
 ## Security
 ### Are RIM sessions encrypted?
-Yes. All sessions, whether they be direct peer-to-peer connections or connections using a relay fallback, are encrypted end to end using Datagram Transport Layer Security (DTLS).
+Yes. All sessions, whether they be direct peer-to-peer connections or connections using a relay, are encrypted end to end using Datagram Transport Layer Security (DTLS). This is the same technology seen in the HTTPS protocol that modern websites implement for security.
+### Can Pneuma Solutions eavesdrop on sessions relayed by the public cloud?
+No. Session key negotiation and encryption are performed end to end between the controller and the target. In other words, everything is encrypted before it even leaves your device. That way, the cloud service merely relays the data as is, making it impossible for the service to decipher the data.
+### What measures have been taken to prevent remote code execution (RCE) vulnerabilities?
+All RIM code which is exposed to input from the network is written in [memory-safe programming languages](https://www.memorysafety.org/docs/memory-safety/){:target="_blank"} including Rust and JavaScript.
+### Is RIM HIPAA-compliant?
+Yes. The best option in these cases would be an on-premises deployment.
 ### Do any ports need to be opened on the target or controller?
 No and no.
 ### What connections would need to be allowed on a network in order for RIM to function?
 When utilizing the public cloud, an https connection to <https://getrim.app> is required. In optimal cases this is enough for RIM to establish a peer-to-peer connection between the controller and the target. However, it helps to allow UDP connections through ports 19302 and 3478 (the standard STUN and TURN ports). This ensures that if a relay is being utilized, RIM will not have to fall back to a tcp connection on port 443.
-The enterprise server for on-premises or VPC deployments listens on the standard https port (443). Port 80 needs to be open as well, though its only purpose is to facilitate https redirect. 
 ### What background processes does RIM run, and are they light on system resources?
 * rim-host-service.exe: target process
     * This is an always-on background process that runs by default as long as RIM is installed.
@@ -78,8 +99,10 @@ The current minimum version required is 2021.3.
 Yes, and this includes secure screens since the RIM host process takes care of elevation.
 ### Can I use the Remote Accessibility Module with the Windows Store version of NVDA?
 This is not possible due to the Windows Store version of NVDA not allowing the use of addons. You'll have to either use a portable version of NVDA, or have your IT install the standard version of NVDA on your machine.
-### Will my NVDA addons transfer over to this version of NVDA?
-Not automatically, and this is generally not advisable anyway. The NVDA included in the accessibility module is designed to be a lightweight, trimmed down, secure solution to provide speech in an environment that otherwise wouldn't have it any other way. That said, if you are using an application for which an NVDA addon is the only way it would be accessible, then you can install that addon individually, though at this point we lack a mechanism to flush the addons directory of all user-generated content upon closing the RIM session. It's worth noting that this version of NVDA contains an addon to communicate with the RIM session, which should not be removed.
+### The target requires assistance with an application that is made accessible via an NVDA addon. Will addons function with the Remote Accessibility Module?
+Unfortunately this isn't something we officially support. In these unique circumstances it may be better to transfer a portable full version of NVDA over to the user's machine with your specific configuration. When you launch the portable copy of NVDA, the Remote Accessibility Module will quit on its own.
+### How will updates to the Remote Accessibility Module be handled?
+We will have an automated system in place to keep the embedded NVDA current. Should an NVDA update break compatibility with RIM, we will address the incompatibility and then update NVDA accordingly. There is no need to maintain this copy of NVDA on your own, and we advise against this as we will not be able to provide support if something breaks due to this kind of user modification.
 ## Unattended Sessions
 ### Are voice conversations supported during unattended sessions?
 No.
