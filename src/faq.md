@@ -68,7 +68,7 @@ Yes. All sessions, whether they be direct peer-to-peer connections or connection
 ### Can Pneuma Solutions eavesdrop on sessions relayed by the public cloud?
 No. Session key negotiation and encryption are performed end to end between the controller and the target. In other words, everything is encrypted before it even leaves your device. That way, the cloud service merely relays the data as is, making it impossible for the service to decipher the data.
 ### What measures have been taken to prevent remote code execution (RCE) vulnerabilities?
-All RIM code which is exposed to input from the network is written in [memory-safe programming languages](https://www.memorysafety.org/docs/memory-safety/){:target="_blank"} including Rust and JavaScript.
+All RIM code which is exposed to input from the network is written in [memory-safe programming languages](https://www.memorysafety.org/docs/memory-safety/) including Rust and JavaScript.
 ### Is RIM HIPAA-compliant?
 Yes. The best option in these cases would be an on-premises deployment.
 ### Do any ports need to be opened on the target or controller?
