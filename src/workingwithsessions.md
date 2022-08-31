@@ -31,14 +31,14 @@ As mentioned earlier, accessing the RIM menu directs you back to your machine. T
 <!-- end -->
 
 ## File Transfers
-File transfers are quick and easy, as you can literally copy/paste across the session.
+File transfers are quick and easy, as all it involves is a standard copy/paste across the session.
 1. Bring up the RIM menu, and click on "Minimize Session." Control will be directed back to your computer.
 1. Select the file(s) and/or folder(s) you want to transfer using your file manager of choice. It doesn't matter if this is Windows Explorer, or a third party solution such as Total Commander.
 1. Copy the selected contents to the clipboard in the usual way.
 1. Switch back to the remote session, and locate the folder on the target machine where you wish to paste the content.
 1. Last but not least, paste as you normally would.
 <!-- end -->
-And just like that, the content will appear on their machine momentarily! Note that the transfer time will depend entirely on the size of the content being sent as well as your network speed.
+That's it, the content will instantly begin transferring to the target computer! Note that the transfer time will depend entirely on the size of the content being sent as well as your network speed.
 ## Remote Accessibility Module
 Whether you're assisting a user who doesn't use a screen reader, or you're diagnosing an issue with a malfunctioning screen reader, RIM is fully prepared to come to your aid. The remote accessibility module consists of two components:
 * An addon for the [NVDA screen reader](https://nvaccess.org) that enables the screen reader to receive output from the remote computer

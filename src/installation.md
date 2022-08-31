@@ -10,3 +10,5 @@ There is only one installation package to use, whether you are offering or recei
 That's all there is to it! RIM will be installed and ready for use. You can either launch RIM via its desktop icon, or by pressing Windows+Shift+Backspace.
 ## Unattended Access Installer
 If the person providing assistance has provided you a custom installer, you will be advised of this when the installer launches. This is because this installer will automatically configure RIM for what is known as unattended access. This is what will allow the person helping you to initiate a session with your computer without you having to enter a keyword. We will cover unattended access indepth later on in this manual.
+## Silent Install
+You'll want to do this when deploying RIM to multiple machines. Simply use the */S* command line parameter in your deployment script. Note that it is case-sensitive, so a capital S is required.
