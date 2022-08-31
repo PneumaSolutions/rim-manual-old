@@ -5,5 +5,5 @@
 - [Getting Connected](./gettingconnected.md)
 - [Working within a Session](./workingwithsessions.md)
 - [Frequently Asked Questions](./faq.md)
--[pricing](./pricing.md)
+- [pricing](./pricing.md)
 - [Change Log](./changelog.md)
