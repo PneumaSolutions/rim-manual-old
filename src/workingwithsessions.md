@@ -10,8 +10,8 @@ A few things will happen immediately after the connection is established.
     * left click the RIM icon.
 <!-- end -->
 ## Remote Control Zone
-At this point, you're all set to perform whatever tasks need doing on the client side. Should you need to switch back to controlling your own machine, bring up the RIM menu, then select the "Minimize session" option. You will be taken back to your machine until you switch back into the session window. When you go back into the session window, keyboard control will once again be directed to the client computer.  
-Once you're done, either the controller or the target can go into the RIM menu and choose the "End Session" option. When the session ends, the target machine will get a toast notification informing them of this.
+At this point, you're all set to perform whatever tasks need doing on the client side. Should you need to switch back to controlling your own machine, bring up the RIM menu, then select the "Minimize session" option. You will be taken back to your machine until you switch back into the session window or press Windows+Shift+Backspace again. When you go back into the session window, keyboard control will once again be directed to the client computer.  
+Once you're done, either the controller or the target can go into the RIM menu and choose the "Disconnect Session" option. When the session ends, the target machine will get a toast notification informing them of this.
 ## The RIM Menu
 As mentioned earlier, accessing the RIM menu directs you back to your machine. There are a number of options in this menu. They include:
 * Minimize Session: brings control back to your machine as described above
@@ -25,7 +25,7 @@ As mentioned earlier, accessing the RIM menu directs you back to your machine. T
 * Request Unattended Access: Allows you to send a request for unattended access to the client computer. This is useful if you are a sysadmin and need to perform routine maintenance, or even for something as simple as controlling your home machine while on the go.
 * Lock the Target Machine: Performs the equivalent of Windows+L.
 * View Connection Details: Provides a detailed lowdown on your connection
-* End Session: Terminates the session.
+* Disconnect Session: Terminates the session.
     * Remember that this option is available to both sides of the session.
     * This is also possible via the keyboard command Windows+Shift+D.
 <!-- end -->
@@ -108,3 +108,15 @@ If you no longer want your machine to be controlled unattended, you can revoke t
 1. You will be asked if you wish to revoke the machine; answer yes.
 <!-- end -->
 That's it! The controller will receive a message stating that this machine is no longer available for unattended access. Should they need unattended access again, they can reinitiate the procedure to request permission for unattended access as described above.
+### Setting up an Autoconfigured RIM Installer
+One of the easiest ways to set up a machine for unattended access is by creating a custom installer. This is incredibly useful if you are configuring mass deployments, or even as a simpler way to get RIM up and running on a friend or relative's computer you plan on providing support for on the regular.
+In order to do this:
+1. Start RIM in Provide Help Mode.
+1. Activate the "Create a Pre-Configured Target Installer" button.
+1. RIM will ask you for a base name for the target machine(s). This base name will be used to name the target machine(s) the installer registers to your account. An unattended machine will show up in your account as base name followed by the hostname of the system. For example, your base name could be the name of a given workgroup, and your machine's ID will be tagged onto the end.
+1. You will next want to select the expiration for the installer. You may choose to allow the installer to remain valid for anywhere from 7 to 30 days.
+1. Once you click on "Create Installer," RIM will display a success message and then copy the download link for the installer to your clipboard.
+1. At this point you can either email the link, or you can download the installer and include it in your deployment routines. Alternatively, if you are assisting a user with the setup process over the phone, you may read them the link over the phone as it is fairly short.
+1. Unless the installer is configured to remain silent, the end user will get a message dialogue advising them that their machine is about to be set up for unattended access when the installer first launches. Once they answer yes to the prompt, the installer will proceed. Unlike the normal installer, the target will encounter a success message box when the installation completes, informing them that their system is now ready for remote access.
+<!-- end -->
+At this point, the next time you go to start an unattended session, you should see the newly configured unattended target in your list of machines.
