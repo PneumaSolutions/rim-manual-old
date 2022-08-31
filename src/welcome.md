@@ -19,7 +19,11 @@ Again, Remote Incident Manager is designed to replace previous solutions, rather
 ### Voice Communication
 Gone are the days of having to place a separate phone call or web conference alongside the remote session. RIM provides crystal clear, low-latency voice communication right inside your session.
 ### Accessible in *All* Use Cases
-A blind IT professional can now easily help a sighted end user, even if they do not have a screen reader installed on their computer. In the absence of a screen reader on the remote computer, RIM will see to it that you will still be able to get speech provided you are using the free [NVDA Screen Reader.](https://nvaccess.org) Remote incident Manager will initiate its accessibility module which allows you to control the client's machine with speech as if they had a screen reader, all the while the client never has to install a screen reader to make it happen.
+RIM is the first remote access solution that provides unparalleled accessibility, irrespective of the screen reader (or lack thereof) that either party is using.
+#### differences in screen readers are now irrelevant
+Before RIM, it used to be difficult to assist someone running a different screen reader than your own. With RIM, this is now a thing of the past. RIM doesn't care what either party is running; it just works. You could be running JAWS while the person you're assisting could be running NVDA or even Narrator; with RIM, none of that matters. This is the advantage of a screen reader-independent solution.
+#### No Screen reader, no problem!
+A blind IT professional can now easily help a sighted end user, even if they do not have a screen reader installed on their computer. In the absence of a screen reader on the remote computer, RIM will see to it that you will still be able to get speech provided you are using the free [NVDA Screen Reader.](https://nvaccess.org) Remote incident Manager will initiate its accessibility module which allows you to control the client's machine with speech as if they had a screen reader. Not only does the end user not have to worry about installing a screen reader; they don't even hear the speech that you're now hearing while you control their computer.
 ## Documentation Conventions and Terminology
 * Key combinations are denoted by the plus symbol, i.e. windows+shift+escape.
 * RIM connections occur between a target and a controller.

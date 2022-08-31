@@ -42,7 +42,7 @@ That's it, the content will instantly begin transferring to the target computer!
 ## Remote Accessibility Module
 Whether you're assisting a user who doesn't use a screen reader, or you're diagnosing an issue with a malfunctioning screen reader, RIM is fully prepared to come to your aid. The remote accessibility module consists of two components:
 * An addon for the [NVDA screen reader](https://nvaccess.org) that enables the screen reader to receive output from the remote computer
-* A self-contained, portable version of NVDA that runs on the client's machine only when called upon by initiating the remote accessibility on the controller side. This version of NVDA is tweaked so as to not get in the client's way, as it does not speak. Instead, it pipes the output through to the running copy of NVDA on the controller side. This way, you can accessibly assist a client without them having to install or even download a screen reader.
+* A self-contained accessibility module initiated on the target computer at the request of the controller. The advantage to this approach is that the end user does not hear speech on their computer while you're controlling it. Instead, the Remote Accessibility Module pipes the speech output through to the running copy of NVDA on the controller side. This way, you can accessibly assist an end user without them having to install or even download a screen reader.
 ### Setup Procedure
 For first-time initialization of the accessibility module, here is what you will need to do:
 1. Bring up the RIM menu.
@@ -50,7 +50,7 @@ For first-time initialization of the accessibility module, here is what you will
 1. You will be asked to install an addon that will allow your copy of NVDA to communicate with the remote computer during the session. Accept the installation prompts, and wait for NVDA to restart.
 1. By now, the remote accessibility module will be fully initialized, and you will hear speech output as you control the remote computer.
 <!-- end -->
-If you need to stop the remote accessibility module on the remote machine, simply press insert+q as you normally would to quit NVDA. The RIM version of NVDA will not prompt you before quitting.
+If you need to stop the remote accessibility module on the remote machine, simply press insert+q as you normally would to quit NVDA.
 ## Rebooting and Reconnecting
 Whether you're installing system updates or working your way out of a system hang, RIM has got you covered during the reboot process. Selecting the "Reboot and Reconnect" option off the RIM menu will allow you to either perform a graceful reboot or an emergency reboot, depending on what state the computer is in. While the computer is rebooting, RIM will inform you that reconnection attempts are being made.  
 Note that if a software installation causes the target machine to reboot, RIM will recognize this and attempt a reconnection. Additionally, if you volluntarily reboot the machine in the usual way, i.e. outside of the RIM menu, you will be asked if you wish to reconnect the session.

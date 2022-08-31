@@ -14,6 +14,7 @@ Currently, we offer relays in the following locations:
     * Virginia
     * California
 * Teronto, Canada
+* London, England
 * Warsaw, Poland
 * Bangalore, India
 * Singapore
@@ -48,29 +49,18 @@ Yes! Your 30 minute daily allotment is still present for any machine outside of 
 ### I have a one-to-one subscription, and the target computer underwent a hardware upgrade. Will Rim count this as a machine switch?
 Only if RIM needs to be reinstalled. So, while a hard drive upgrade or any other situation requiring a Windows reinstallation would be considered a machine switch, upgrading the ram would not.
 ### Our company bought the pro subscription, but we have two techs - one that does help-desk during the day, and a system maintenance tech that works in the evening. Would we be able to assign the evening sysadmin a controller seat?
-Definitely. In situations where multiple technitions will be using RIM, we offer up to two (2) additional controller seats for $50 a month per seat - $500 a year per seat - to accompany the pro plan if needed. This will make it easier for multiple controllers at different workstations or offices to provide remote support.
-
-If you have multiple controller seats, you can purchase additional channels for them so that sessions can run simultaneously. Each additional channel is $50 a month, or $500 a year. Following is a price breakdown for all possible pro plans.  
-
-  Number of Controllers | Number of Channels | Price
-  ---|---|---
-  1 | 1 | $999
-  2 | 1 | $1499
-  2 | 2 | $1999
-  3 | 1 | $1999
-  3 | 2 | $2499
-  3 | 3 | $2999
-
+Definitely. In situations where multiple technitions will be using RIM, we offer up to two (2) additional controller seats for $50 a month per seat - $500 a year per seat - to accompany the pro plan if needed. This will make it easier for multiple controllers at different workstations or offices to provide remote support.  
+If you have multiple controller seats, you can purchase additional channels for them so that sessions can run simultaneously. Each additional channel is $50 a month, or $500 a year.
 
 ## Security
 ### Are RIM sessions encrypted?
-Yes. All sessions, whether they be direct peer-to-peer connections or connections using a relay, are encrypted end to end using Datagram Transport Layer Security (DTLS). This is the same technology seen in the HTTPS protocol that modern websites implement for security.
+Yes. All sessions, be they direct peer-to-peer connections or connections using a relay, are encrypted end to end using Datagram Transport Layer Security (DTLS). This is the same technology seen in the HTTPS protocol that modern websites implement for security.
 ### Can Pneuma Solutions eavesdrop on sessions relayed by the public cloud?
 No. Session key negotiation and encryption are performed end to end between the controller and the target. In other words, everything is encrypted before it even leaves your device. That way, the cloud service merely relays the data as is, making it impossible for the service to decipher the data.
 ### What measures have been taken to prevent remote code execution (RCE) vulnerabilities?
 All RIM code which is exposed to input from the network is written in [memory-safe programming languages](https://www.memorysafety.org/docs/memory-safety/) including Rust and JavaScript.
 ### Is RIM HIPAA-compliant?
-Yes. The best option in these cases would be an on-premises deployment.
+Yes. The best configuration in this case would be an on-premises deployment.
 ### Do any ports need to be opened on the target or controller?
 No and no.
 ### What connections would need to be allowed on a network in order for RIM to function?
@@ -83,10 +73,12 @@ When utilizing the public cloud, an https connection to <https://getrim.app> is 
     * It downloads some components of RIM in the background so as to reduce installation time and file size.
     * It does not phone home for any other purpose
 * Remote Incident Manager.exe: main executable
-    * This runs continuously on machines that have been configured for unattended access. Its purpose is to listen for and initiate unattended access connections requested by the controller.
+    * This process's background tasks depending on how the machine is configured.
+        * Normally, Its purpose is to listen for and initiate automatic updates. The system checks for updates every five minutes.
+        * On unattended machines, it listens for and initiates unattended access connections requested by the controller.
     * Still fairly light on system resources
     * Phones home only with an anonymous machine ID. No personally identifiable information is ever transferred.
-    * Can be shut down via the icon in the system tray for disabling unattended access. A controller deleting a machine from the unattended access group has the same result
+    *  Unattended access background processing can be shut down via the icon in the system tray for disabling unattended access. A controller deleting a machine from the unattended access group has the same result
 <!-- end -->
 ## Remote Accessibility Module
 ### Is there anything the target machine needs to configure for first-time use of the Remote Accessibility Module?
@@ -100,9 +92,7 @@ Yes, and this includes secure screens since the RIM host process takes care of e
 ### Can I use the Remote Accessibility Module with the Windows Store version of NVDA?
 This is not possible due to the Windows Store version of NVDA not allowing the use of addons. You'll have to either use a portable version of NVDA, or have your IT install the standard version of NVDA on your machine.
 ### The target requires assistance with an application that is made accessible via an NVDA addon. Will addons function with the Remote Accessibility Module?
-Unfortunately this isn't something we officially support. In these unique circumstances it may be better to transfer a portable full version of NVDA over to the user's machine with your specific configuration. When you launch the portable copy of NVDA, the Remote Accessibility Module will quit on its own.
-### How will updates to the Remote Accessibility Module be handled?
-We will have an automated system in place to keep the embedded NVDA current. Should an NVDA update break compatibility with RIM, we will address the incompatibility and then update NVDA accordingly. There is no need to maintain this copy of NVDA on your own, and we advise against this as we will not be able to provide support if something breaks due to this kind of user modification.
+Unfortunately this isn't something we officially support. In these unique circumstances it may be better to transfer a portable full version of NVDA over to the user's machine with your specific configuration. When you launch the portable copy of NVDA, the Remote Accessibility Module will quit on its own. After your work is done, you can relaunch the Remote Accessibility Module to assist you through deleting your portable version of NVDA off of the target computer.
 ## Unattended Sessions
 ### Are voice conversations supported during unattended sessions?
 No.
