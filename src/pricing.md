@@ -45,6 +45,7 @@ The enterprise edition offers an unlimited amount of controllers and targets, al
 * 5 channels: $5000 per year
 * 10 channels: $7500 per year
 * 15 channels: $10000 per year
+* 20 channels: $12500 per year
 * 25 channels: $15000 per year
 <!-- end -->
 There is an additional one-time fee of $1000 for setup and onboarding, irrespective of which plan you choose.  

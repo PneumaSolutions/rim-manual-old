@@ -1,6 +1,6 @@
 # Change Log
 ## 3.0.0
-This release concludes the RIM public beta. RIM pricing plans and restrictions on free usage are now in effect.
+This release concludes the RIM public beta. RIM pricing plans and restrictions on free usage are now in effect. For free accounts, RIM now displays a usage meter along with a purchase button.
 ## 0.12.2
 Fixed a bug that prevented the new Windows+Shift+Backspace hotkey from working in some situations.
 ## 0.12.1
