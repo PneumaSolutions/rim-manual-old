@@ -19,7 +19,7 @@ This allows you, as AN individual controller, to connect TO a set number of phys
   3 | $19.95 | $199
   4 | $24.95 | $249
   5 | $29.95 | $299
-  6 | $349 | $34.95
+  6 | $34.95 | $349
   7 | $39.95 | $399
   8 | $44.95 | $449
   9 | $49.95 | $499
