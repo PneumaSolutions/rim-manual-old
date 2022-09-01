@@ -31,7 +31,7 @@ As mentioned earlier, accessing the RIM menu directs you back to your machine. T
 <!-- end -->
 
 ## File Transfers
-File transfers are quick and easy, as all it involves is a standard copy/paste across the session.
+File transfers are quick and easy, as the standard copy/paste process works across the session.
 1. Bring up the RIM menu, and click on "Minimize Session." Control will be directed back to your computer.
 1. Select the file(s) and/or folder(s) you want to transfer using your file manager of choice. It doesn't matter if this is Windows Explorer, or a third party solution such as Total Commander.
 1. Copy the selected contents to the clipboard in the usual way.
