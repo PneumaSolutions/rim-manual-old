@@ -6,7 +6,7 @@ Anyone can use RIM to assist another user for up to 30 minutes a day. These minu
 ## Passes
 Passes are useful if you're providing assistance on an as needed basis, as they allow you to do this regardless of whether you hold an active subscription or not. When you pay for a pass, that pass will wait patiently for you to activate it whenever you are able. This also means that you can hold several passes in storage and use them whenever they're needed.
 ### Incident Pass ($10)
-An incident pass will allow you to assist a single user for as long as is needed over a 24 hour period. At any point during the 24 hour period, reconnections can be made. So let's say you start out by setting up and overnight Windows re-installation. Once that machine is able to use RIM, you can come back and configure the end user's system as they see fit.
+An incident pass will allow you to assist a single user for as long as is needed over a 24 hour period. At any point during the 24 hour period, reconnections can be made. So let's say you start out by setting up an overnight Windows re-installation. Once that machine is able to use RIM, you can come back and configure the end user's system as they see fit.
 ### Day Pass ($20)
 A day pass will allow you to assist several users over a 24 hour period. So if you have multiple errands to run, you'll want one of these.
 ## Unattended Access Subscriptions
