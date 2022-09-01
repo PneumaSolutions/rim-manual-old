@@ -53,7 +53,7 @@ For first-time initialization of the accessibility module, here is what you will
 If you need to stop the remote accessibility module on the remote machine, simply press insert+q as you normally would to quit NVDA.
 ## Rebooting and Reconnecting
 Whether you're installing system updates or working your way out of a system hang, RIM has got you covered during the reboot process. Selecting the "Reboot and Reconnect" option off the RIM menu will allow you to either perform a graceful reboot or an emergency reboot, depending on what state the computer is in. While the computer is rebooting, RIM will inform you that reconnection attempts are being made.  
-Note that if a software installation causes the target machine to reboot, RIM will recognize this and attempt a reconnection. Additionally, if you volluntarily reboot the machine in the usual way, i.e. outside of the RIM menu, you will be asked if you wish to reconnect the session.
+Note that if the computer is rebooted by a software installation or manually rebooted in the usual way, you will be asked if you wish to reconnect the session.
 ## Requesting Unattended Access
 RIM allows you, as the controller, to configure machines for unattended access. This allows you to provide remote assistance without the user having to launch RIM, enter a keyword, or even be near the computer. This is useful if you are a sysadmin performing routine maintenance on computers in your workgroup. You may also want to allow this for your home computer should you need to access it from someplace else.  
 There are two ways to configure machines for unattended access.
