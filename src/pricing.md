@@ -1,21 +1,32 @@
 # Pricing
 Remote Incident Manager is useful in a wide array of scenarios of varying frequency. Thus, our pricing structure makes every reasonable attempt to meet you where you are. Additionally, remember that RIM is always free for the person receiving help.
 # Free Tier
-Anyone can use RIM to assist another user for up to 30 minutes a day.
+Anyone can use RIM to assist another user for up to 30 minutes a day. These minutes do not need to be used in one sitting, and a usage meter will keep tabs on how many minutes you have on any given day. Throughout your 30 minutes, you may connect to any number of people, over any number of interactive sessions.
 # Consumer Pricing
 ## Passes
 Passes are useful if you're providing assistance on an as needed basis, as they allow you to do this regardless of whether you hold an active subscription or not. When you pay for a pass, that pass will wait patiently for you to activate it whenever you are able. This also means that you can hold several passes in storage and use them whenever they're needed.
 ### Incident Pass ($10)
-An incident pass will allow you to assist a single user for as long as is needed over a 24 hour period. At any point during the 24 hour period, reconnections can be made.
+An incident pass will allow you to assist a single user for as long as is needed over a 24 hour period. At any point during the 24 hour period, reconnections can be made. So let's say you start out by setting up and overnight Windows re-installation. Once that machine is able to use RIM, you can come back and configure the end user's system as they see fit.
 ### Day Pass ($20)
 A day pass will allow you to assist several users over a 24 hour period. So if you have multiple errands to run, you'll want one of these.
 ## Unattended Access Subscriptions
-### 1 to 1 ($9.95 per month, $100 per year)
-This allows you, as the individual controller, to configure one (1) physical machine for unattended access. This is useful if you have a desktop at home to which you'll want to access while on the road, or a friend or relative that you plan to provide assistance to on the regular. You can instantly switch the target machine up to 3 times per calendar year.
-### 1 to 3 ($25 per month, $250 per year)
-You as the individual controller can configure up to 3 targets for unattended access. Each machine can be instantly switched up to three times per calendar year.
+This allows you, as AN individual controller, to connect TO a set number of physical machines, as well as configure them for unattended access. These plans are scalable (up to ten targets) in order to meet your needs. Whether you're simply looking to control your desktop from the road, or you're the go-to tech support for a few folks in your family, these plans have you covered.
+
+  Number of Targets | Monthly Price | Yearly Price
+  ---|---|---
+  1 | $9.95 | $99
+  2 | $14.95 | $149
+  3 | $19.95 | $199
+  4 | $24.95 | $249
+  5 | $29.95 | $299
+  6 | $349 | $34.95
+  7 | $39.95 | $399
+  8 | $44.95 | $449
+  9 | $49.95 | $499
+  10 | $54.95 | $549
+
 # RIM Pro
-RIM Pro is suitable for either a single support person or trainer, or a small support team.
+RIM Pro is suitable for either a single support person or trainer, or a small support team. Each pro plan allows connections to an unlimited number of targets.
 ## RIM Pro Base Package ($99 per month, $999 per year)
 This allows a single controller to control an unlimited amount of targets.
 ## Upgrades
