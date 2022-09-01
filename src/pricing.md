@@ -10,7 +10,7 @@ An incident pass will allow you to assist a single user for as long as is needed
 ### Day Pass ($20)
 A day pass will allow you to assist several users over a 24 hour period. So if you have multiple errands to run, you'll want one of these.
 ## Unattended Access Subscriptions
-This allows you, as AN individual controller, to connect TO a set number of physical machines, as well as configure them for unattended access. These plans are scalable (up to ten targets) in order to meet your needs. Whether you're simply looking to control your desktop from the road, or you're the go-to tech support for a few folks in your family, these plans have you covered.
+This allows you, as AN individual controller, to connect to a set number of physical machines, as well as configure them for unattended access. These plans are scalable (up to ten targets) in order to meet your needs. Whether you're simply looking to control your desktop from the road, or you're the go-to tech support for a few folks in your family, these plans have you covered.
 
   Number of Targets | Monthly Price | Yearly Price
   ---|---|---

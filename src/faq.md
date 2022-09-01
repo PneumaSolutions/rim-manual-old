@@ -32,7 +32,7 @@ This could be due to a conflict in keyboard layouts. On rare occasions, if a key
 You bet! The subscriptions and/or one-off payments are for individuals and organizations seeking to offer remote assistance. No need to worry about getting a subscription if you're the person receiving help. In fact, you do not even have to set up an account if you are merely receiving help.
 ### I don't really do remote assistance regularly, but I may be helping a friend or family member on occasion. Are there any options that don't involve a subscription?
 Certainly! We do accommodate as many use cases as we can.
-* Anyone can assist a user over RIM for free for up to 30 minutes a day. So if you need to help someone install some software, fix a problem real quick, or send over a few files, we've got you covered.
+* Anyone can assist a user over RIM for free for up to 30 minutes a day. So if you need to help someone install some software, fix a problem real quick, or send over a few files, we've got you covered. These minutes don't have to be used in one sitting.
 * There are, of course, going to be situations where a particular issue requires a little more time. Or maybe you're assisting someone learning a new piece of software and might be connecting on and off over the next few days. That's where our day passes and incident passes come in.
     * Incident passes allow you to connect to a single target as many times as is needed over a 24 hour period.
     * Day passes allow you to connect to multiple targets over a 24 hour period.
@@ -50,7 +50,7 @@ Yes! Your 30 minute daily allotment is still present for any machine outside of 
 Only if RIM needs to be reinstalled. So, while a hard drive upgrade or any other situation requiring a Windows reinstallation would be considered a machine switch, upgrading the ram would not.
 ### Our company bought the pro subscription, but we have two techs - one that does help-desk during the day, and a system maintenance tech that works in the evening. Would we be able to assign the evening sysadmin a controller seat?
 Definitely. In situations where multiple technitions will be using RIM, we offer up to two (2) additional controller seats for $50 a month per seat - $500 a year per seat - to accompany the pro plan if needed. This will make it easier for multiple controllers at different workstations or offices to provide remote support.  
-If you have multiple controller seats, you can purchase additional channels for them so that sessions can run simultaneously. Each additional channel is $50 a month, or $500 a year.
+If you have multiple controller seats, you can purchase additional channels for them so that sessions can run simultaneously. Each additional channel is $50 a month, or $500 a year. 
 
 ## Security
 ### Are RIM sessions encrypted?
@@ -60,7 +60,7 @@ No. Session key negotiation and encryption are performed end to end between the 
 ### What measures have been taken to prevent remote code execution (RCE) vulnerabilities?
 All RIM code which is exposed to input from the network is written in [memory-safe programming languages](https://www.memorysafety.org/docs/memory-safety/) including Rust and JavaScript.
 ### Is RIM HIPAA-compliant?
-Yes. The best configuration in this case would be an on-premises deployment.
+Yes. The best configuration in this case would be an on-premises deployment, so please [get in touch with us](https://pneumasolutions.com/contact/) if your use case depends on this.
 ### Do any ports need to be opened on the target or controller?
 No and no.
 ### What connections would need to be allowed on a network in order for RIM to function?
@@ -74,7 +74,7 @@ When utilizing the public cloud, an https connection to <https://getrim.app> is 
     * It does not phone home for any other purpose
 * Remote Incident Manager.exe: main executable
     * This process's background tasks depending on how the machine is configured.
-        * Normally, Its purpose is to listen for and initiate automatic updates. The system checks for updates every five minutes.
+        * Normally, Its purpose is to listen for and initiate automatic updates. It checks for updates every five minutes.
         * On unattended machines, it listens for and initiates unattended access connections requested by the controller.
     * Still fairly light on system resources
     * Phones home only with an anonymous machine ID. No personally identifiable information is ever transferred.
