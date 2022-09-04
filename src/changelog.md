@@ -1,4 +1,8 @@
 # Change Log
+## 3.0.1
+* This update introduces support for the new RIM personal passes, which let you use RIM for remote technical support or training for up to 24 hours for as little as $10. [Try a RIM pass today.](https://getrim.app/signup/pass)
+* The button that used to be called "Create a Pre-Configured Target Installer" is now called "Create an Installer for Unattended Access".
+* When renaming an unattended target machine, the existing name is now filled in and selected for easy editing.
 ## 3.0.0
 This release concludes the RIM public beta. RIM pricing plans and restrictions on free usage are now in effect. For free accounts, RIM now displays a usage meter along with a purchase button.
 ## 0.12.2
