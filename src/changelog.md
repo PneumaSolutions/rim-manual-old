@@ -1,4 +1,6 @@
 # Change Log
+## 3.0.3
+* RIM no longer mistakenly shows the "Create an Installer for Unattended Access" button if you don't have a subscription.
 ## 3.0.2
 * If you have purchased one or more RIM passes, you now have control over whether a particular session will use a RIM pass or the free tier, as well as which pass will be used. RIM also tells you how much time is left on your selected pass.
 ## 3.0.1
