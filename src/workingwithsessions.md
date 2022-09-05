@@ -112,7 +112,7 @@ That's it! The controller will receive a message stating that this machine is no
 One of the easiest ways to set up a machine for unattended access is by creating a custom installer. This is incredibly useful if you are configuring mass deployments, or even as a simpler way to get RIM up and running on a friend or relative's computer you plan on providing support for on the regular.
 In order to do this:
 1. Start RIM in Provide Help Mode.
-1. Activate the "Create a Pre-Configured Target Installer" button.
+1. Activate the "Create an Installer for Unattended Access" button.
 1. RIM will ask you for a base name for the target machine(s). This base name will be used to name the target machine(s) the installer registers to your account. An unattended machine will show up in your account as base name followed by the hostname of the system. For example, your base name could be the name of a given workgroup, and your machine's ID will be tagged onto the end.
 1. You will next want to select the expiration for the installer. You may choose to allow the installer to remain valid for anywhere from 7 to 30 days.
 1. Once you click on "Create Installer," RIM will display a success message and then copy the download link for the installer to your clipboard.
