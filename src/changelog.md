@@ -1,4 +1,6 @@
 # Change Log
+## 3.0.2
+* If you have purchased one or more RIM passes, you now have control over whether a particular session will use a RIM pass or the free tier, as well as which pass will be used. RIM also tells you how much time is left on your selected pass.
 ## 3.0.1
 * This update introduces support for the new RIM personal passes, which let you use RIM for remote technical support or training for up to 24 hours for as little as $10. [Try a RIM pass today.](https://getrim.app/signup/pass)
 * The button that used to be called "Create a Pre-Configured Target Installer" is now called "Create an Installer for Unattended Access".
