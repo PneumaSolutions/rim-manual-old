@@ -1,4 +1,6 @@
 # Change Log
+## 3.0.5
+* This is a bug-fix update.
 ## 3.0.4
 * This update restores compatibility with Windows 7.
 ## 3.0.3
