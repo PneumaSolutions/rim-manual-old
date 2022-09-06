@@ -1,4 +1,6 @@
 # Change Log
+## 3.0.4
+* This update restores compatibility with Windows 7.
 ## 3.0.3
 * RIM no longer mistakenly shows the "Create an Installer for Unattended Access" button if you don't have a subscription.
 ## 3.0.2
