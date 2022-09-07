@@ -1,4 +1,6 @@
 # Change Log
+## 3.0.6
+* Users with either a RIM Enterprise subscription or a RIM Pro subscription with the Enterprise add-on can now create fully silent pre-configured installers for unattended access. To run an installer in silent mode, whether it's the standard installer or a pre-configured installer from an enterprise account, use the /S command line switch (note the capitalization) when running the installer.
 ## 3.0.5
 * This is a bug-fix update.
 ## 3.0.4
