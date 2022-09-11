@@ -1,4 +1,6 @@
 # Change Log
+## 3.0.8
+* Fixed a bug that sometimes prevented remote screen output from working when a User Account Control prompt was displayed.
 ## 3.0.7
 * This is a bug-fix update.
 ## 3.0.6
