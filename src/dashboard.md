@@ -7,10 +7,10 @@ If you are a network administrator who does not have RIM installed, you can simp
 ## Managing Targets
 When you click the "Configure Targets" link, you will arrive at a page that allows you to manage all the machines you have configured for unattended access. You can click on any one of these machines in order to manage it. Once inside, you will be able to:
 * Rename the target
-* Move the target if you are an enterprise user with target groups configured - more on target groups later
+* Move the target to a different group (more on target groups later)
 * Delete the target
 <!-- end -->
-## Target Groups (for Enterprise addon and Above)
+## Target Groups (for Pro Accounts and Above)
 Say for instance you're workgroup is spread out among several different locations. Or maybe you want to designate groups of machines to your routine maintenance techs. Target groups allow you to do just that. In order to do this, simply click the "Create Target Group" button, name your group, and submit.  
 You may have as many target groups as is needed for your use case. 
 ## Setting up a Preconfigured RIM Installer

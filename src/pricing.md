@@ -27,7 +27,7 @@ Note that the subscriptions do not concern interactive sessions, I.E. those init
   10 | $54.95 | $549
 
 # RIM Pro
-RIM Pro is suitable for either a single support person or trainer, or a small support team. Each pro plan allows connections to an unlimited number of targets.
+RIM Pro is suitable for either a single support person or trainer, or a small support team. Each pro plan allows connections to an unlimited number of targets, as well as target group configuration.
 ## RIM Pro Base Package ($99 per month, $999 per year)
 This allows a single controller to control an unlimited amount of targets.
 ## Upgrades
@@ -47,8 +47,6 @@ Each additional controller is an additional $500, and so is its associating chan
 This addon brings the features of RIM Enterprise to individual support reps or small units. Features include:
 * Unattended access to Windows servers
 * Completely silent mode for pre-configured unattended target installers
-* Target groups to make it easy to manage large numbers of target machines
-* Access control for each target group
 * Optional integration with your organization's single-sign-on (SSO) system (requires an additional $1,000 setup fee).
 <!-- end -->
 Note: Identity verification may be required for this add-on.
