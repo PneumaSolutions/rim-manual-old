@@ -26,7 +26,6 @@ Currently, we offer relays in the following locations:
 ### The target machine to which I am connected doesn't respond properly to keyboard commands that work fine on my keyboard. What's going on?
 This could be due to a conflict in keyboard layouts. On rare occasions, if a keyboard layout is different enough from your own it may confuse RIM. Should that occur, please contact us with a report containing information about the keyboard layout of both machines.
 
-
 ## Pricing and Payments
 ### So, getting help from a person over RIM is totally free, right?
 You bet! The subscriptions and/or one-off payments are for individuals and organizations seeking to offer remote assistance. No need to worry about getting a subscription if you're the person receiving help. In fact, you do not even have to set up an account if you are merely receiving help.
@@ -38,15 +37,17 @@ Certainly! We do accommodate as many use cases as we can.
     * Day passes allow you to connect to multiple targets over a 24 hour period.
 * You can accumulate several of these and use them whenever the time calls for them. In other words, if you have multiple day passes, you do not need to use them consecutively.
 <!-- end -->
+### What payment methods do you accept?
+We process payments through Stripe, so we are able to directly accept Visa, Mastercard, Amex, or Discover. Additionally, Stripe can accept payments via Google Pay.
 ### How do these passes work? Does the clock start immediately upon payment, or on the day I initiate the session?
 Passes only begin when the controller initiates the session. So if the target's machine fails on them requiring a trip to the shop and a same-day turnaround is not possible, you can simply hold off until the machine is back in good shape and your day pass will still be waiting for you.
 ### So this means these passes don't expire?
 No. Rest assured that your accumulation of day passes will be waiting patiently for you to activate them whenever you're ready.
 ### What happens if I connect to another machine on the day an incident pass has been used?
 That depends. If the machine is within your subscription, I.E. if you're accessing your home machine while on the road, then it's business as usual. Any other connections that aren't the initial target you connected to will work under the usual 30 minute allotment.
-### I hold an active one-to-one or one-to-three subscription. Would I still be able to assist a user outside the group for up to 30 minutes, or via a pass?
+### I hold an active personal subscription. Would I still be able to assist a user outside the group of targets for up to 30 minutes, or via a pass?
 Yes! Your 30 minute daily allotment is still present for any machine outside of your subscription. Additionally, acquiring a subscription does not replace any existing passes you may have.
-### I have a one-to-one subscription, and the target computer underwent a hardware upgrade. Will Rim count this as a machine switch?
+### I have a personal subscription, and the target computer underwent a hardware upgrade. Will Rim count this as a machine switch?
 Only if RIM needs to be reinstalled. So, while a hard drive upgrade or any other situation requiring a Windows reinstallation would be considered a machine switch, upgrading the ram would not.
 ### Our company bought the pro subscription, but we have two techs - one that does help-desk during the day, and a system maintenance tech that works in the evening. Would we be able to assign the evening sysadmin a controller seat?
 Definitely. In situations where multiple technitions will be using RIM, we offer up to two (2) additional controller seats for $50 a month per seat - $500 a year per seat - to accompany the pro plan if needed. This will make it easier for multiple controllers at different workstations or offices to provide remote support.  
@@ -75,10 +76,10 @@ When utilizing the public cloud, an https connection to <https://getrim.app> is 
 * Remote Incident Manager.exe: main executable
     * This process's background tasks depending on how the machine is configured.
         * Normally, Its purpose is to listen for and initiate automatic updates. It checks for updates every five minutes.
-        * On unattended machines, it listens for and initiates unattended access connections requested by the controller.
+        * On unattended machines, it listens for and initiates unattended or prompted access connections requested by the controller.
     * Still fairly light on system resources
     * Phones home only with an anonymous machine ID. No personally identifiable information is ever transferred.
-    *  Unattended access background processing can be shut down via the icon in the system tray for disabling unattended access. A controller deleting a machine from the unattended access group has the same result
+    *  Unattended access background processing can be shut down via the icon in the system tray for disabling unattended access. A controller deleting a machine from the unattended access group has the same result. However, the main process will still run in order to check for and download updates.
 <!-- end -->
 ## Remote Accessibility Module
 ### Is there anything the target machine needs to configure for first-time use of the Remote Accessibility Module?
@@ -95,7 +96,7 @@ This is not possible due to the Windows Store version of NVDA not allowing the u
 Unfortunately this isn't something we officially support. In these unique circumstances it may be better to transfer a portable full version of NVDA over to the user's machine with your specific configuration. When you launch the portable copy of NVDA, the Remote Accessibility Module will quit on its own. After your work is done, you can relaunch the Remote Accessibility Module to assist you through deleting your portable version of NVDA off of the target computer.
 ## Unattended Sessions
 ### Are voice conversations supported during unattended sessions?
-No.
+No. However, prompted sessions do support voice conversations.
 ### If I delete an unattended machine from my controller account, will it automatically revoke permission on the target?
 Yes. Once an unattended target is removed, the change will be effective immediately. If the target machine is powered down or otherwise not connected to the internet, the change will be effective as soon as an internet connection is established on their machine.
 ### The target machine rebooted after installing updates and drivers, and it requires a password to log in. How does the session continue from here?

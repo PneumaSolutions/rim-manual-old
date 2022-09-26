@@ -9,7 +9,7 @@ Passes are useful if you're providing assistance on an as needed basis. When you
 An incident pass will allow you to assist a single user for as long as is needed over a 24 hour period. At any point during the 24 hour period, reconnections can be made. So let's say you start out by setting up an overnight Windows re-installation. Once that machine is able to use RIM, you can come back and configure the end user's system as they see fit.
 ### Day Pass ($20)
 A day pass will allow you to assist several users over a 24 hour period. So if you have multiple errands to run, you'll want one of these.
-## Unattended Access Subscriptions
+## Personal Unattended Access Subscriptions
 These plans allow you, as AN individual controller, to configure a set number of physical machines for unattended access. These plans are scalable (up to ten targets) in order to meet your needs. Whether you're simply looking to control your desktop from the road, or you're the go-to tech support for a few folks in your family, these plans have you covered.  
 Note that the subscriptions do not concern interactive sessions, I.E. those initiated via a keyword. The incident passes and day passes described above can be used alongside a subscription to facilitate interactive sessions. If you don't have any passes, the daily 30 minute allotment is used.
 
@@ -61,3 +61,5 @@ The enterprise edition offers an unlimited amount of controllers and targets, al
 * 25 channels: $15000 per year
 <!-- end -->
 There is an additional one-time fee of $1000 for setup and onboarding, irrespective of which plan you choose.  
+# activating a subscription or pass
+When you make a purchase through RIM, you will be issued an activation link. Upon clicking the link, your pass or subscription will be activated and ready for use. Remember that the time period for a pass only begins when you initiate a remote session using said pass.

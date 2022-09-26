@@ -1,6 +1,9 @@
 # Change Log
-## 3.0.8
-* Fixed a bug that sometimes prevented remote screen output from working when a User Account Control prompt was displayed.
+##3.1.0
+This release adds a complete management dashboard for controllers.
+* All subscribers have access to the dashboard, with feature sets determined by subscription tier.
+* Removed the in-app functions for renaming, deleting, and creating installers for unattended machines as this is now part of the dashboard
+* Brought back the welcome page.
 ## 3.0.7
 * This is a bug-fix update.
 ## 3.0.6

@@ -4,6 +4,7 @@
 - [Installation](./installation.md)
 - [Getting Connected](./gettingconnected.md)
 - [Working within a Session](./workingwithsessions.md)
+- [The RIM Dashboard](dashboard.md)
 - [Frequently Asked Questions](./faq.md)
 - [pricing](./pricing.md)
 - [Change Log](./changelog.md)
