@@ -1,4 +1,6 @@
 # Change Log
+## 3.1.1
+* When you press the "RIM Dashboard" button in the Provide Help window, that window now stays open.
 ## 3.1.0
 This release adds a complete management dashboard for controllers.
 * All subscribers have access to the dashboard, with feature sets determined by subscription tier.
