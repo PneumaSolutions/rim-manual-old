@@ -31,3 +31,5 @@ The user will get a prompt when running the installer, containing the following 
 The user can choose to either answer yes or no to the installation. Answering no will cancel the installation. After the installer finishes, the user will get a prompt informing them that their machine is now set up for remote access.
 ### Silent Install (Enterprise Installers Only)
 A silent install can be initiated by running the installer with the */S* command line parameter. This is useful when installing RIM as part of a mass deployment routine.
+## Session History
+You can view your entire history of past sessions through the RIM dashboard. The session history currently contains the date and time of each session, the name of the computer you connected to, and the duration of the session.
