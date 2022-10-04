@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.2
+* Adjusted the visual style to be more accessible to low-vision users.
+* Added error messages if required fields are left empty.
 ## 3.1.1
 * When you press the "RIM Dashboard" button in the Provide Help window, that window now stays open.
 ## 3.1.0
