@@ -1,4 +1,6 @@
 # Change Log
+## 3.1.3
+* Fixed a bug that could cause RIM to crash if the RIM menu is open when a session is reconnected.
 ## 3.1.2
 * Adjusted the visual style to be more accessible to low-vision users.
 * Added error messages if required fields are left empty.
