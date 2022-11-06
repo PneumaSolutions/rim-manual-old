@@ -1,4 +1,6 @@
 # Change Log
+## 3.1.4
+* Enterprise customers can now deploy RIM using an MSI-based installer.
 ## 3.1.3
 * Fixed a bug that could cause RIM to crash if the RIM menu is open when a session is reconnected.
 ## 3.1.2
