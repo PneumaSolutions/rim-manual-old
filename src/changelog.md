@@ -1,4 +1,6 @@
 # Change Log
+## 3.1.5
+* Fixed a visual display bug that caused the list of unattended target machines to overlap with the buttons below it.
 ## 3.1.4
 * Enterprise customers can now deploy RIM using an MSI-based installer.
 ## 3.1.3
