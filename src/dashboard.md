@@ -14,12 +14,14 @@ When you click the "Configure Targets" link, you will arrive at a page that allo
 Say for instance you're workgroup is spread out among several different locations. Or maybe you want to designate groups of machines to your routine maintenance techs. Target groups allow you to do just that. In order to do this, simply click the "Create Target Group" button, name your group, and submit.  
 You may have as many target groups as is needed for your use case. 
 ## Setting up a Preconfigured RIM Installer
-One of the easiest ways to set up a machine for unattended or prompted connections is by creating a custom installer. This is incredibly useful if you are configuring mass deployments, or even as a simpler way to get RIM up and running on a friend or relative's computer you plan on providing support for on the regular.
+One of the easiest ways to set up a machine for unattended or prompted connections is by creating a custom installer. This is incredibly useful if you are configuring mass deployments, or even as a simpler way to get RIM up and running on an end user's computer you plan on providing support for on the regular.
 IN order to do this:
-1. In the dashboard, "Build Target Installer" button. For your convenience, this button is available from the main dashboard as well as within a target group.
-1. You will first be asked if you want this machine to be configured as fully unattended, or configure it so the user has to accept a prompt to initiate the connection.
+1. In the target management screen, click the "Build Target Installer" button.
+1. You will first be asked if you want this machine to be configured as fully unattended, or for prompted access in which the user has to accept a prompt to initiate the connection.
 1. You will then be asked for a target group assignment. Note that the target group selection will automatically go to your chosen target group if you initiate the installer configuration from your group's page.
-1. Lastly, you will be asked how long you want this installer to be valid for. It can be valid for anywhere between 7 to 30 days.
+1. You will be asked how long you want this installer to be valid for. It can be valid for anywhere between 7 to 30 days. Note that this timeframe only affects the functionality of the installation package. In other words, the machine's RIM configuration will not be disabled when the installation expires.
+1. You are then given the option to assign a bass name to all machines designated to this target group.
+1. If you are an enterprise admin, you will see a checkbox that allows you to build the installer as an MSI package. This option is useful for mass deployment of a custom installer to a machine cluster that will be designated to the given target group.
 1. Click on "Build Installer." You will be presented with the download link that you can either copy to the clipboard and send to your end user, or you may download the installer directly for use in mass deployments.
 <!-- end -->
 Now that you have your installer, it can be run in one of two ways. In either case, the machine will be added to your list of machines in both your account as well as the RIM client after the installer is complete.
@@ -30,6 +32,6 @@ The user will get a prompt when running the installer, containing the following 
 <!-- end -->
 The user can choose to either answer yes or no to the installation. Answering no will cancel the installation. After the installer finishes, the user will get a prompt informing them that their machine is now set up for remote access.
 ### Silent Install (Enterprise Installers Only)
-A silent install can be initiated by running the installer with the */S* command line parameter. This is useful when installing RIM as part of a mass deployment routine.
+A silent install can be initiated by running the executable installer with the */S* command line parameter. This is useful when installing RIM as part of a mass deployment routine.
 ## Session History
 You can view your entire history of past sessions through the RIM dashboard. The session history currently contains the date and time of each session, the name of the computer you connected to, and the duration of the session.
