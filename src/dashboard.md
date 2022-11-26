@@ -41,14 +41,14 @@ A silent install can be initiated by running the executable installer with the *
 You can view your entire history of past sessions through the RIM dashboard. The session history currently contains the date and time of each session, the name of the computer you connected to, and the duration of the session.
 ## Managing your Subscription (Personal )and Pro Plans)
 The dashboard allows you to easily view and manage your RIM subscription details. Upon clicking the "manage subscription" link, you can:
-* Update your payment method
 * Upgrade your plan
+* Update your payment method
 * Cancel recurring payments
 <!-- end -->
 ### Upgrading your Plan
 You can easily upgrade your subscription. If you are on a monthly plan, you will be prorated the remaining charge from the new amount, with the full new amount being charged for subsequent months. Clicking "Upgrade Subscription" reveals a page nearly identical to the initial plan selection page. There are a few notable differences which we will outline below:
 * You cannot downgrade your plan to one with fewer machines. You can, however, upgrade from a monthly to a yearly plan with the same number of machines as your current plan. In order to downgrade, you would need to cancel your plan, wait for it to expire, then initiate a new plan with fewer machines.
-* Enterprise plans, including the enterprise addon, cannot be acquired directly through htis page.
+* Enterprise plans, including the enterprise addon, cannot be acquired directly through this page.
 <!-- end -->
 ### Canceling Recurring Payments
 When you click "Cancel Automatic Renewal," you will be asked for confirmation, after which your subscription will be set to expire at the end of the current term.
