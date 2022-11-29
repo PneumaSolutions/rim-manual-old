@@ -37,6 +37,8 @@ Certainly! We do accommodate as many use cases as we can.
     * Day passes allow you to connect to multiple targets over a 24 hour period.
 * You can accumulate several of these and use them whenever the time calls for them. In other words, if you have multiple day passes, you do not need to use them consecutively.
 <!-- end -->
+### How do I go about bringing RIM to the attention of my place of work?
+We've assembled a [Self-Advocacy Kit](https://sak.getrim.app) (SAK). A packet of e-mail formatted letters you can send to appropriate individuals on behalf of yourself or an employee. For the record, RIM provides the same functionality as less accessible mainstream solutions. As such, RIM can replace an existing infrastructure, rather than be used alongside one. It is therefore considered a reasonable accessibility accommodation and should be provided to you by your organization. Accessibility isn't a favor, it's a right to inclusivity.
 ### What payment methods do you accept?
 We process payments through Stripe, so we are able to directly accept Visa, Mastercard, Amex, or Discover. Additionally, Stripe can accept payments via Google Pay.
 ### How do these passes work? Does the clock start immediately upon payment, or on the day I initiate the session?
