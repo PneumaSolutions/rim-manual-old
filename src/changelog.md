@@ -1,4 +1,6 @@
 # Change Log
+## 3.1.6
+* Fixed a problem that sometimes made it impossible to interrupt JAWS speech on the secure desktop.
 ## 3.1.5
 * Fixed a visual display bug that caused the list of unattended target machines to overlap with the buttons below it.
 ## 3.1.4
