@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.8
+* Fixed a problem that sometimes prevented the remote accessibility module from starting.
+
 ## 3.1.7
 * When choosing a target machine for an unattended or prompted session, you can now search through your target machines. To do this, on the Provide Help screen, press "Choose machine" as before, tab to the "Search" field, enter the text to search for, then either press Enter or press the "Search" button.
 
