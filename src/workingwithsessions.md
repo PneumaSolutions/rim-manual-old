@@ -80,10 +80,10 @@ Should you wish to register one of your own machines for unattended access, you 
 Now that we've registered the machine for unattended access, here is how we will start a session.
 1. Start RIM in controller mode.
 1. Rather than entering a keyword, locate and activate the"Choose a machine" button.
-1. When you click this, a list of machines will appear. Choose the one you want, then hit enter.
+1. When you click this, a list of machines will appear. Choose the one you want, then hit enter. You may also use the search bar to narrow the list down to a specific machine.
 <!-- end -->
 If the target machine is configured for prompted access, the end user will get a prompt. Once they answer yes, you'll be connected. If the session is unattended, you will immediately be connected and dropped into the remote control zone.  
-Please note: Voice conversations are not supported during unattended sessions.
+Please note: Voice conversations are not supported during fully unattended sessions.
 ### Creating a Shortcut for an Unattended Session
 For extra convenience, you can create desktop shortcuts that allow you to automatically launch unattended sessions. In order to do this:
 1. Access the list of unattended computers, and select the one you want to create a shortcut for.
@@ -92,7 +92,7 @@ For extra convenience, you can create desktop shortcuts that allow you to automa
 <!-- end -->
 Now, when you activate this shortcut, you will either automatically land in the remote session, or send a prompt to the user's machine that they can accept.
 #### More Ways to use Unattended Session Shortcuts
-Unattended session shortcuts, like any other shortcuts, can have global hotkeys associated with them. This can be extremely useful if you are a maintenance tech managing multiple computers in a workgroup. For example, if your workgroup consists of 6 computers that you perform routine maintenance on, you could configure Alt+Control+1 through 6 as hotkeys for each respective machine. This ought to greatly speed up your workflow.  
+Unattended session shortcuts, like any other shortcuts, can have global hotkeys associated with them. This can be extremely useful if you are a maintenance tech managing multiple computers in a workgroup. For example, if your workgroup consists of 6 computers that you perform routine maintenance on, you could configure Alt+Control+1 through 6 as hotkeys for each respective machine. This ought to significantly speed up your workflow.  
 In addition, you can call up an unattended session via the run box if you copy the shortcut into your user directory. Once you've copied the shortcut, you may start an unattended session by typing your-session-name.url in the run box.
 ### Revoking Unattended Access
 If you no longer want your machine to be controlled unattended, you can revoke the controller's access. You do not need to be in a session in order to do this.
