@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.9
+* Fixed a problem that sometimes caused a RIM session to get stuck trying to reconnect.
+
 ## 3.1.8
 * Fixed a problem that sometimes prevented the remote accessibility module from starting.
 
