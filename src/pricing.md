@@ -45,7 +45,7 @@ Each additional controller is an additional $500, and so is its associating chan
 
 ### RIM Pro Enterprise Addon ($1000, plus $1000 for optional SSO integration)
 This addon brings the features of RIM Enterprise to individual support reps or small units. Features include:
-* Unattended access to Windows servers
+* Unattended mass deployment to Windows servers
 * Completely silent mode for pre-configured unattended target installers
 * Optional integration with your organization's single-sign-on (SSO) system (requires an additional $1,000 setup fee).
 <!-- end -->

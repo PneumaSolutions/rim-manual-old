@@ -85,7 +85,7 @@ When utilizing the public cloud, an https connection to <https://getrim.app> is 
 <!-- end -->
 ## Remote Accessibility Module
 ### Is there anything the target machine needs to configure for first-time use of the Remote Accessibility Module?
-Not at all! There are no dialogue boxes or anything of the sort. In fact, the self-contained copy of NVDA that the target machine will run does not speak, so the target will not even have to concern themselves with it.
+Not at all! There are no dialogue boxes, permission request screens or anything of the sort.
 ### Does the Remote Accessibility Module work on secure screens such as User Account Control?
 Yes! Since the RIM host runs with elevated privileges, this allows us to leverage the Remote Accessibility Module for secure screens. Gone are the days of getting trapped in a user account control dialogue in the middle of a program installation!
 ### What is the minimum version of NVDA required for the client support addon?
@@ -94,8 +94,6 @@ The current minimum version required is 2021.3.
 Yes, and this includes secure screens since the RIM host process takes care of elevation.
 ### Can I use the Remote Accessibility Module with the Windows Store version of NVDA?
 This is not possible due to the Windows Store version of NVDA not allowing the use of addons. You'll have to either use a portable version of NVDA, or have your IT install the standard version of NVDA on your machine.
-### The target requires assistance with an application that is made accessible via an NVDA addon. Will addons function with the Remote Accessibility Module?
-Unfortunately this isn't something we officially support. In these unique circumstances it may be better to transfer a portable full version of NVDA over to the user's machine with your specific configuration. When you launch the portable copy of NVDA, the Remote Accessibility Module will quit on its own. After your work is done, you can relaunch the Remote Accessibility Module to assist you through deleting your portable version of NVDA off of the target computer.
 ## Unattended Sessions
 ### Are voice conversations supported during unattended sessions?
 No. However, prompted sessions do support voice conversations.
