@@ -12,3 +12,16 @@ That's all there is to it! A desktop shortcut will be automatically created to a
 If the person providing assistance has provided you a custom installer, you will be advised of this when the installer launches. This is because this installer will automatically configure RIM for what is known as unattended access. This is what will allow the person helping you to initiate a session with your computer without you having to enter a keyword. We will cover unattended access indepth later on in this manual.
 ## Silent Installation
 You'll want to do this when deploying RIM to multiple machines. Simply use the */S* command line parameter in your deployment script. Note that it is case-sensitive, so a capital S is required.
+## Additional Considerations for Windows Servers
+To install RIM on your Windows Server, connect to the server via RDP. In order to get the most stable connection experience, we recommend using the Remote Desktop app from the Microsoft Store.
+### Obtaining Sound and running Narrator
+In order to obtain sound, do the following once connected:
+1. Press windows key+r.
+1. Type cmd and hit enter. Wait about ten seconds.
+1. Type:  
+`net start audiosrv`  
+and hit enter.
+1. Now, press CTRL+Windows+Enter to enable Narrator. If everything worked properly, you should get speech.
+<!-- end -->
+You can now follow the install procedure as described above.  
+Please note that if you need sound for subsequent connections via RIM, you will need to install a virtual sound output device on your server. The free version of [Virtual Audio Cable](http://virtualaudiocable.org/download/software/VACSetup.exe) should suffice.
