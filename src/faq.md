@@ -49,8 +49,7 @@ No. Rest assured that your accumulation of day passes will be waiting patiently 
 That depends. If the machine is within your subscription, I.E. if you're accessing your home machine while on the road, then it's business as usual. Any other connections that aren't the initial target you connected to will work under the usual 30 minute allotment.
 ### I hold an active personal subscription. Would I still be able to assist a user outside the group of targets for up to 30 minutes, or via a pass?
 Yes! Your 30 minute daily allotment is still present for any machine outside of your subscription. Additionally, acquiring a subscription does not replace any existing passes you may have.
-### After a computer is reimaged and has been reconfigured with the same computer name, is there
-anything that needs to be done to get RIM up and running again? 
+### After a computer is reimaged and has been reconfigured with the same computer name, is there anything that needs to be done to get RIM up and running again? 
 Simply remove the machine from the dashboard, reinstall RIM, and add the machine back into your account as you normally would.
 ### I have a personal subscription, and the target computer underwent a hardware upgrade. Will Rim count this as a machine switch?
 Only if RIM needs to be reinstalled. So, while a hard drive upgrade or any other situation requiring a Windows reinstallation would be considered a machine switch, upgrading the ram would not.
