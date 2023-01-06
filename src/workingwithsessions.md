@@ -14,6 +14,8 @@ At this point, you're all set to perform whatever tasks need doing on the client
 Once you're done, either the controller or the target can go into the RIM menu and choose the "Disconnect Session" option. When the session ends, the target machine will get a toast notification informing them of this.
 ## The RIM Menu
 As mentioned earlier, accessing the RIM menu directs you back to your machine. There are a number of options in this menu. They include:
+* Update RIM on Target: Forces an update of RIM on the target computer
+    * This option shows if the target's machine is running an older version of RIM
 * Minimize Session: brings control back to your machine as described above
 * Flip Session: Allows your client to remote control your machine and hear its audio. As the original controller, you can flip the session back by selecting this option a second time.
     * You can also use the keyboard shortcut Windows+Shift+F to flip the session back and forth.
