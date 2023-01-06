@@ -26,7 +26,7 @@ Currently, we offer relays in the following locations:
 ### The target machine to which I am connected doesn't respond properly to keyboard commands that work fine on my keyboard. What's going on?
 This could be due to a conflict in keyboard layouts. On rare occasions, if a keyboard layout is different enough from your own it may confuse RIM. Should that occur, please contact us with a report containing information about the keyboard layout of both machines.
 ### After a computer is reimaged and has been reconfigured with the same computer name, is there anything that needs to be done to get RIM up and running again? 
-Simply remove the machine from the dashboard, reinstall RIM, and add the machine back into your account as you normally would.
+Simply remove the machine from your account, reinstall RIM, then add the machine back into your account.
 
 ## Pricing and Payments
 ### So, getting help from a person over RIM is totally free, right?
