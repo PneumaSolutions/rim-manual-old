@@ -25,6 +25,8 @@ Currently, we offer relays in the following locations:
 ## General Session Troubleshooting
 ### The target machine to which I am connected doesn't respond properly to keyboard commands that work fine on my keyboard. What's going on?
 This could be due to a conflict in keyboard layouts. On rare occasions, if a keyboard layout is different enough from your own it may confuse RIM. Should that occur, please contact us with a report containing information about the keyboard layout of both machines.
+### After a computer is reimaged and has been reconfigured with the same computer name, is there anything that needs to be done to get RIM up and running again? 
+Simply remove the machine from the dashboard, reinstall RIM, and add the machine back into your account as you normally would.
 
 ## Pricing and Payments
 ### So, getting help from a person over RIM is totally free, right?
@@ -49,8 +51,6 @@ No. Rest assured that your accumulation of day passes will be waiting patiently 
 That depends. If the machine is within your subscription, I.E. if you're accessing your home machine while on the road, then it's business as usual. Any other connections that aren't the initial target you connected to will work under the usual 30 minute allotment.
 ### I hold an active personal subscription. Would I still be able to assist a user outside the group of targets for up to 30 minutes, or via a pass?
 Yes! Your 30 minute daily allotment is still present for any machine outside of your subscription. Additionally, acquiring a subscription does not replace any existing passes you may have.
-### After a computer is reimaged and has been reconfigured with the same computer name, is there anything that needs to be done to get RIM up and running again? 
-Simply remove the machine from the dashboard, reinstall RIM, and add the machine back into your account as you normally would.
 ### I have a personal subscription, and the target computer underwent a hardware upgrade. Will Rim count this as a machine switch?
 Only if RIM needs to be reinstalled. So, while a hard drive upgrade or any other situation requiring a Windows reinstallation would be considered a machine switch, upgrading the ram would not.
 ### Our company bought the pro subscription, but we have two techs - one that does help-desk during the day, and a system maintenance tech that works in the evening. Would we be able to assign the evening sysadmin a controller seat?
