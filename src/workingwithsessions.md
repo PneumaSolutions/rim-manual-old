@@ -26,7 +26,11 @@ As mentioned earlier, accessing the RIM menu directs you back to your machine. T
 * Send Control+Alt+Delete: Sends this keystroke to the remote machine.
 * Request Unattended Access: Allows you to send a request for unattended access to the client computer. This is useful if you are a sysadmin and need to perform routine maintenance, or even for something as simple as controlling your home machine while on the go.
 * Lock the Target Machine: Performs the equivalent of Windows+L.
-* View Connection Details: Provides a detailed lowdown on your connection
+* View Connection Details: Provides a detailed lowdown on your connection, as well as the target machine. Information includes:
+    * Connection statistics
+    * Information about the computer, including Windows version, available ram, etc.
+    * Running processes
+    * Installed packages
 * Disconnect Session: Terminates the session.
     * Remember that this option is available to both sides of the session.
     * This is also possible via the keyboard command Windows+Shift+D.
