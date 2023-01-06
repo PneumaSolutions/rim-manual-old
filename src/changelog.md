@@ -1,4 +1,8 @@
 # Change Log
+## 3.1.10
+* You can now optionally add a comment at the end of a RIM session. Session comments can be viewed in the RIM Dashboard.
+* The Connection Details window is enhanced. The statistics are updated live as long as the window is open, and the window now includes information about the target machine.
+
 ## 3.1.9
 * Fixed a problem that sometimes caused a RIM session to get stuck trying to reconnect.
 
