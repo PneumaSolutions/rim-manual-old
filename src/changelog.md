@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.11
+* If the target machine is running at least this version of RIM, but hasn't yet updated to the latest version, the controller can now force the target machine to update its installation of RIM through a new option on the session menu.
+
 ## 3.1.10
 * You can now optionally add a comment at the end of a RIM session. Session comments can be viewed in the RIM Dashboard.
 * The Connection Details window is enhanced. The statistics are updated live as long as the window is open, and the window now includes information about the target machine.
