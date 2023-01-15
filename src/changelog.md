@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.13
+* Fixed a bug that caused users to get logged out of RIM after installing some Windows updates.
+
 ## 3.1.12
 * By popular demand, RIM no longer prompts for a comment at the end of each session. You can still post comments on sessions in the RIM Dashboard. We may add a configurable option to prompt for a comment as a feature in the future.
 
