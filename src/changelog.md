@@ -1,4 +1,10 @@
 # Change Log
+## 3.1.14
+* The process of re-establishing a connection when there is a connectivity issue is now more robust.
+* Fixed a problem that sometimes caused RIM's background update process to stop.
+* If the controller is running an older version of RIM than the target, the menu no longer includes an option to update the target.
+* If a screen reader or RIM's remote accessibility module is running on the target machine, you can now stop it through an option on the menu.
+
 ## 3.1.13
 * Fixed a bug that caused users to get logged out of RIM after installing some Windows updates.
 
