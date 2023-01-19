@@ -1,4 +1,8 @@
 # Change Log
+## 3.1.15
+* When you connect to a target machine with no running screen reader, RIM will automatically enable remote accessibility if you are running a screen reader on the controller machine. If you're running a screen reader other than NVDA on the controller machine, RIM will even automatically shut down that screen reader and start NVDA if you have it installed.
+* Fixed issues that prevented the remote accessibility module from using your local NVDA configuration settings such as keyboard layout and typing echo.
+
 ## 3.1.14
 * The process of re-establishing a connection when there is a connectivity issue is now more robust.
 * Fixed a problem that sometimes caused RIM's background update process to stop.
