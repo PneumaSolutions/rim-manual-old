@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.18
+* Fixed a problem that prevented RIM from updating itself on target machines that were on the Windows Sign-in screen with no active user session.
+
 ## 3.1.17
 * Since the previous update, we've received reports of the Shift modifier being stuck on the target machine when running JAWS. We believe this update resolves that problem. Please let us know if you continue to have trouble with stuck modifiers.
 * Fixed a bug that caused RIM to shut down NVDA on the target machine at the end of a session if NVDA was started on the target machine after enabling remote accessibility.
