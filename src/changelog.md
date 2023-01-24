@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.19
+* Fixed some corner cases in remote keyboard input handling. In particular, when running JAWS on the target machine, JAWS now correctly recognizes Pause and NumLock key presses from the controller. Please let us know if you find any regressions in keyboard input handling, particularly for non-US keyboard layouts.
+
 ## 3.1.18
 * Fixed a problem that prevented RIM from updating itself on target machines that were on the Windows Sign-in screen with no active user session.
 
