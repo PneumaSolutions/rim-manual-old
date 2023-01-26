@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.20
+* Added logging that will help us diagnose reports of unattended targets being intermittently disconnected from RIM.
+
 ## 3.1.19
 * Fixed some corner cases in remote keyboard input handling. In particular, when running JAWS on the target machine, JAWS now correctly recognizes Pause and NumLock key presses from the controller. Please let us know if you find any regressions in keyboard input handling, particularly for non-US keyboard layouts.
 
