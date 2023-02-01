@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.21
+* Added a new keyboard shortcut, Windows+Shift+M, while in a session window, to minimize the window and return the keyboard focus to the local (controller) machine.
+
 ## 3.1.20
 * Added logging that will help us diagnose reports of unattended targets being intermittently disconnected from RIM.
 
