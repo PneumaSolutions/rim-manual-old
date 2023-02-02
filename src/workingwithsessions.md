@@ -17,6 +17,7 @@ As mentioned earlier, accessing the RIM menu directs you back to your machine. T
 * Update RIM on Target: Forces an update of RIM on the target computer
     * This option shows if the target's machine is running an older version of RIM
 * Minimize Session: brings control back to your machine as described above
+    * You can also use the shortcut windows+shift+m to minimize the session.
 * Flip Session: Allows your client to remote control your machine and hear its audio. As the original controller, you can flip the session back by selecting this option a second time.
     * You can also use the keyboard shortcut Windows+Shift+F to flip the session back and forth.
 * Start/stop Voice Conversation: Allows you to toggle the voice chat on or off for your session.
@@ -111,3 +112,10 @@ If you no longer want your machine to be controlled unattended, you can revoke t
 1. You will be asked if you wish to revoke the machine; answer yes.
 <!-- end -->
 That's it! The controller will receive a message stating that this machine is no longer available for unattended access. Should they need unattended access again, they can reinitiate the procedure to request permission for unattended access as described above.
+# Key Command Reference
+Action | Command
+--- | ---
+Minimize Session | Windows+Shift+M
+Flip Session | Windows+Shift+F
+Disconnect Session (Controller or Target) | Windows+Shift+D
+<!-- end -->
