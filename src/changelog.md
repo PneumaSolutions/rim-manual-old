@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.22
+* Fixed a bug that sometimes caused RIM on the target machine to get into a loop that prevented unattended connections.
+
 ## 3.1.21
 * Added a new keyboard shortcut, Windows+Shift+M, while in a session window, to minimize the window and return the keyboard focus to the local (controller) machine.
 
