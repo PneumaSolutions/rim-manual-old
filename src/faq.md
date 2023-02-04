@@ -37,8 +37,13 @@ Certainly! We do accommodate as many use cases as we can.
 * There are, of course, going to be situations where a particular issue requires a little more time. Or maybe you're assisting someone learning a new piece of software and might be connecting on and off over the next few days. That's where our day passes and incident passes come in.
     * Incident passes allow you to connect to a single target as many times as is needed over a 24 hour period.
     * Day passes allow you to connect to multiple targets over a 24 hour period.
-* You can accumulate several of these and use them whenever the time calls for them. In other words, if you have multiple day passes, you do not need to use them consecutively.
+    * Packages of prepaid hours allow you to have a set number of hours available to be used entirely on your own time.
+* You can accumulate several of these passes and hourly packages and use them whenever the time calls for them. If you have multiple day passes, for instance, you do not need to use them consecutively. Similarly, You don't need to use your prepaid hours in one session or 24 hour period.
 <!-- end -->
+### I purchased a package of prepaid hours. What happens to my free daily allotment?
+Good news: Your free 30 minute daily allotment is not going anywhere! When you start a keyword-based session, RIM will start off by using your free 30 minute daily allotment. Your prepaid time will be used after your free 30 minutes is up.
+### How long will my prepaid hours last? Are they tied in with my subscription?
+Prepaid hours are entirely separate from your subscription. That being said, your prepaid hours will remain in your account for one (1) year past the date they were first used.
 ### How do I go about bringing RIM to the attention of my place of work?
 We've assembled a [Self-Advocacy Kit](https://sak.getrim.app) (SAK). A packet of e-mail formatted letters you can send to appropriate individuals on behalf of yourself or an employee. For the record, RIM provides the same functionality as less accessible mainstream solutions. As such, RIM can replace an existing infrastructure, rather than be used alongside one. It is therefore considered a reasonable accessibility accommodation and should be provided to you by your organization. Accessibility isn't a favor, it's a right to inclusivity.
 ### What payment methods do you accept?
