@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.23
+* Added support for prepaid hours.
+
 ## 3.1.22
 * Fixed a bug that sometimes caused RIM on the target machine to get into a loop that prevented unattended connections.
 
