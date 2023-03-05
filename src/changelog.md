@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.25
+* This update implements compatibility with the upcoming RIM for Mac.
+
 ## 3.1.24
 * When connecting to a target machine with lower display resolution or a higher dots-per-inch (DPI) scale factor than the controller, RIM now scales the remote target display to fit the controller's screen, making the remote display easier to work with visually.
 
