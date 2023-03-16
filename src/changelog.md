@@ -1,4 +1,9 @@
 # Change Log
+## 3.1.31
+* Added a way to send RIM's log files to Pneuma Solutions. Please only use this function if requested by a representation of Pneuma Solutions.
+* RIM now plays a sound whenever it displays a notification.
+* Improved compatibility with the upcoming Mac version of RIM (currently in private beta).
+
 ## 3.1.25
 * This update implements compatibility with the upcoming RIM for Mac.
 
