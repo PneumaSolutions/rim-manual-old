@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.33
+* In response to user feedback, we removed the sound effect when displaying notifications about the status of a remote session.
+
 ## 3.1.31
 * Added a way to send RIM's log files to Pneuma Solutions. Please only use this function if requested by a representation of Pneuma Solutions.
 * RIM now plays a sound whenever it displays a notification.
