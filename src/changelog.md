@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.36
+* The remote accessibility feature is now compatible with NVDA 2023.1.
+
 ## 3.1.33
 * In response to user feedback, we removed the sound effect when displaying notifications about the status of a remote session.
 
