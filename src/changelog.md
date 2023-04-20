@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.41
+* Fixed a problem that sometimes caused RIM to crash in response to activity on the Windows clipboard during a RIM session.
+
 ## 3.1.37
 * Improved compatibility with the upcoming Mac version of RIM.
 
