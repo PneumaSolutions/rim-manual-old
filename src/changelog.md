@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.45
+* Improved compatibility with RIM for Mac.
+
 ## 3.1.44
 * The notification about file transfers, introduced in the previous update, is now shown only once per RIM session.
 
