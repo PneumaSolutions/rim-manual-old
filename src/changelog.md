@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.46
+* Added support for the new RIM Personal Community Support subscription package.
+
 ## 3.1.45
 * Improved compatibility with RIM for Mac.
 
