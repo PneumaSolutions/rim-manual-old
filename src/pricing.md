@@ -29,6 +29,10 @@ Note that the subscriptions do not concern interactive sessions, I.E. those init
   9 | $49.95 | $499
   10 | $54.95 | $549
 
+## Personal Community Support Package
+
+The personal community support package is useful if you occasionally provide technical support for tasks that run longer than the free daily allotment. This package gets you three (3) hours a day in addition to the 30 minute daily allotment. These hours do not roll over, and unattended access is not included in the base package. However, this package is available as an addon for personal unattended subscriptions. This package is available for $149 per year. A monthly option is not included.
+
 # RIM Pro
 RIM Pro is suitable for either a single support person or trainer, or a small support team. Each pro plan allows connections to an unlimited number of targets, as well as target group configuration.
 ## RIM Pro Base Package ($99 per month, $999 per year)
