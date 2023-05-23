@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.47
+* Improved compatibility with non-US keyboard layouts when a Mac controller is connected to a Windows target.
+
 ## 3.1.46
 * Added support for the new RIM Personal Community Support subscription package.
 
