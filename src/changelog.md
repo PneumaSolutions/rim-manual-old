@@ -1,4 +1,7 @@
 # Change Log
+## 3.1.49
+* When using RIM as a controller, there's a new way to open the session menu with the mouse. You can now click the large RIM icon at the top-left corner of the session window, as well as right-clicking anywhere in the window's title bar.
+
 ## 3.1.47
 * Improved compatibility with non-US keyboard layouts when a Mac controller is connected to a Windows target.
 
