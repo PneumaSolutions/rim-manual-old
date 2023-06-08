@@ -1,5 +1,9 @@
 # Change Log
 Versions of RIM will be denoted by headings at level 2. Substantial updates with several features for both platforms will be divided into Mac and Windows subheadings at level 3.
+## 3.2.0
+First official release for Mac OS! New features include:
+* ability to configure unattended or prompted sessions from within an interactive session.
+* All new permissions instructions for users who are not using VoiceOver.
 ## 3.1.49
 This version provides a consistent, cross-platform way of opening the RIM controller session menu with the mouse. A controller can either click the large RIM icon at the upper-left corner of the session window, or as was previously possible on Windows, they can right-click anywhere on the title bar.
 ## 3.1.48
