@@ -1,6 +1,6 @@
-Copyright © 2022 [Pneuma Solutions](https://www.pneumasolutions.com)
+Copyright © 2023 [Pneuma Solutions](https://www.pneumasolutions.com)
 # Welcome
-*Remote Incident Manager* (RIM) is a powerful, fully accessible remote desktop application used to provide technical support, training, and system administration to clients both visually impaired and sighted alike. In addition to providing a streamlined remote desktop experience, RIM has a few unique qualities previously unseen in other remote desktop applications
+*Remote Incident Manager* (RIM) is a powerful, cross-platform fully accessible remote desktop application used to provide technical support, training, and system administration to clients both visually impaired and sighted alike. In addition to providing a streamlined remote desktop experience, RIM has a few unique qualities previously unseen in other remote desktop applications
 ## Why RIM?
 If you are coming from previous remote desktop applications or screen reader-based assistance tools, you will find that RIM significantly streamlines your workflow.
 ### Inclusive Design
@@ -21,11 +21,11 @@ Gone are the days of having to place a separate phone call or web conference alo
 ### Accessible in *All* Use Cases
 RIM is the first remote access solution that provides unparalleled accessibility, irrespective of the screen reader (or lack thereof) that either party is using.
 #### differences in Screen Readers are now Irrelevant
-Before RIM, it used to be difficult to assist someone running a different screen reader than your own. With RIM, this is now a thing of the past. RIM doesn't care what either party is running. You could be running JAWS while the person you're assisting could be running NVDA or even Narrator; with RIM, none of that matters. Not only will you be able to hear the end user's speech irrespective of their screen reader, RIM's keyboard handling will be stable and reliable irrespective of screen reader configuration. This is a significant advantage of a screen reader-independent solution.
+Before RIM, it used to be difficult to assist someone running a different screen reader than your own. With RIM, this is now a thing of the past. RIM doesn't care what either party is running. You could be running JAWS while the person you're assisting could be running NVDA or even VoiceOver; with RIM, none of that matters. Not only will you be able to hear the end user's speech irrespective of their screen reader, RIM's keyboard handling will be stable and reliable irrespective of screen reader configuration. This is a significant advantage of a screen reader-independent solution.
 #### No Screen Reader? No Problem!
-A blind IT professional can now easily help a sighted end user, even if they do not have a screen reader installed on their computer. In the absence of a screen reader on the remote computer, RIM will see to it that you will still be able to get speech provided you are using the free [NVDA Screen Reader.](https://nvaccess.org) Remote incident Manager will initiate its accessibility module which allows you to control the client's machine with speech as if they had a screen reader. Not only does the end user not have to worry about installing a screen reader, they don't even hear the speech that you're now hearing while you control their computer.
+A blind IT professional can now easily help a sighted end user, even if they do not have a screen reader installed on their computer. In the absence of a screen reader on the remote computer, RIM will see to it that you will still be able to get speech provided you are using either the free [NVDA Screen Reader](https://nvaccess.org) or VoiceOver on Mac OS. Remote incident Manager will initiate its accessibility module which allows you to control the client's machine with speech as if they had a screen reader. Not only does the end user not have to worry about installing a screen reader, they don't even hear the speech that you're now hearing while you control their computer.
 ## Documentation Conventions and Terminology
-* Key combinations are denoted by the plus symbol, i.e. windows+shift+escape.
+* Key combinations are denoted by the plus symbol, i.e. Option+Shift+Backspace.
 * RIM connections occur between a target and a controller.
     * A target computer is the computer that will be receiving remote support.
     * A controller connects to a target computer for remote support.
