@@ -27,7 +27,7 @@ As mentioned earlier, accessing the RIM menu directs you back to your machine. T
 * Start Remote Accessibility: This option appears when no screen reader is running on the remote computer. This will enable speech on your end, but the client will not need to worry about hearing speech.
 * Reboot and Reconnect: Allows you to reboot the computer and automatically reconnect the session.
 * Send Control+Alt+Delete: Sends this keystroke to the remote machine.
-* Request Unattended Access: Allows you to send a request for unattended access to the client computer. This is useful if you are a sysadmin and need to perform routine maintenance, or even for something as simple as controlling your home machine while on the go.
+* Request Unattended or Prompted Access: Allows you to send a request for unattended access to the client computer. This is useful if you are a sysadmin and need to perform routine maintenance, or even for something as simple as controlling your home machine while on the go.
 * Lock the Target Machine: Performs the equivalent of Windows+L.
 * View Connection Details: Provides a detailed lowdown on your connection, as well as the target machine. Information includes:
     * Connection statistics
@@ -58,25 +58,27 @@ Whether you're assisting a user who doesn't use a screen reader, or you're diagn
 * A self-contained accessibility module initiated on the target computer at the request of the controller. The advantage to this approach is that the end user does not hear speech on their computer while you're controlling it. Instead, the Remote Accessibility Module pipes the speech output through to the running copy of NVDA on the controller side. This way, you can accessibly assist an end user without them having to install or even download a screen reader.
 ### Setup Procedure
 For first-time initialization of the accessibility module, here is what you will need to do:
-1. Bring up the RIM menu.
-1. Select the "Start Remote Accessibility" option.
-1. You will be asked to install an addon that will allow your copy of NVDA to communicate with the remote computer during the session. Accept the installation prompts, and wait for NVDA to restart.
+1. Connect to a computer that does not have a screen reader running.
+1. If NVDA is currently running, you will be asked to install an addon that will allow your copy of NVDA to communicate with the remote computer during the session. Accept the installation prompts, and wait for NVDA to restart.
 1. By now, the remote accessibility module will be fully initialized, and you will hear speech output as you control the remote computer.
 <!-- end -->
 From this point forward, if you are running a screen reader on the controling computer, the remote accessibility module will automatically start during remote sessions in which the remote computer does not have a screen reader running. Should you be running a screen reader other than NVDA, RIM will disengage that screen reader and then switch you over to NVDA.
 If you need to stop the remote accessibility module on the remote machine in order to start another screen reader, simply press insert+q as you normally would to quit NVDA.
 ## Rebooting and Reconnecting
 Whether you're installing system updates or working your way out of a system hang, RIM has got you covered during the reboot process. Selecting the "Reboot and Reconnect" option off the RIM menu will allow you to either perform a graceful reboot or an emergency reboot, depending on what state the computer is in. While the computer is rebooting, RIM will inform you that reconnection attempts are being made.  
-Note that if the computer is rebooted by a software installation or manually rebooted in the usual way, you will be asked if you wish to reconnect the session.
-## Unattended Access
-RIM allows you, as the controller, to configure machines for unattended access. This allows you to provide remote assistance without the user having to launch RIM, enter a keyword, or even be near the computer. This is useful if you are a sysadmin performing routine maintenance on computers in your workgroup. You may also want to allow this for your home computer should you need to access it from someplace else.  
+Note that if the computer is rebooted by a software installation or manually rebooted in the usual way, you will be asked if you wish to reconnect the session. Of further note is that in either case, Mac targets will only reconnect once the user logs in. This is due to the fact that RIM cannot start automatically on the login screen due to platform limitations, most notably FileVault disk encryption.
+## Unattended or Prompted Access
+RIM allows you, as the controller, to configure machines for unattended or prompted access. This allows you to provide remote assistance without the user having to launch RIM, enter a keyword, or even be near the computer. This is useful if you are a sysadmin performing routine maintenance on computers in your workgroup, or for clients you provide support to on the regular. You may also want to allow unattended for your home computer should you need to access it from someplace else.  
 There are a few ways to configure machines for unattended access.
 ### During an Interactive Session
 1. Bring up the RIM menu.
-1. Select "Request Unattended Access."
+1. Select "Request Unattended or Prompted Access."
+1. You will be asked what kind of connection you want to configure. Your options are:
+    1. Unattended: Allows sessions to be initiated without any intervention whatsoever from the end user.
+    1. Prompted: This configuration presents the user with a prompt informing them that you are conecting to their machine. They will need to press *Option+Shift+Y* on Mac OS, or *Windows+Shift+Y* on Windows, should they wish to accept the connection.
 1. You will be asked to give this machine a name. Enter a personal name for the machine, or if applicable, the machine ID as it appears in your workgroup.
 1. Press enter.
-1. On the client machine, a dialogue pops up asking the user if they're fine with their computer being set up for unattended access. If they answer yes, then you will get a prompt informing you that unattended access has been approved.
+1. On the client machine, a dialogue pops up asking the user if they're fine with their computer being set up for the access you requested. If they answer yes, then you will get a prompt informing you that the access has been approved.
 <!-- end -->
 ### Registering a Machine to your RIM account
 Should you wish to register one of your own machines for unattended access, you can do so without having to start an interactive session with the machine. 
