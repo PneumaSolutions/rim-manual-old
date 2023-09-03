@@ -1,6 +1,6 @@
 # The RIM Management Dashboard
 RIM features a  web-based dashboard to facilitate various machine and account management tasks. You can manage your existing unattended computers, create preconfigured installers for target computers, and much more.  
-It should be noted that the feature set of the dashboard is largely dependent on which subscription tier your account is under. For example, enterprise users can assign machines to target groups, as well as create silent and/or MSI-based installers. On the other hand, creating standard (nonsilent) custom installers for unattended machines is possible with a pro subscription or above.
+It should be noted that the feature set of the dashboard is largely dependent on which subscription tier your account is under. For example, enterprise users can assign machines to target groups, as well as create silent and/or MSI-based installers. On the other hand, creating standard (nonsilent) custom installers for unattended machines is possible with a pro subscription or above, and personal unattended accounts are limited to the amount of machine slots under their plan.
 ## Locating the Dashboard
 If you're a controller, the easiest way to get to the dashboard is through the main RIM interface. Clicking the RIM Dashboard button will automatically open the dashboard in your default browser, with the login already taken care of.  
 If you are a network administrator who does not have RIM installed, you can simply log into your account on the RIM website and your dashboard will appear.
