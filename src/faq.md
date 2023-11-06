@@ -2,9 +2,9 @@
 Here are answers to some common questions concerning RIM. When faced with an issue, please refer to this document whenever possible. If your question is not covered, please [Contact us.](https://pneumasolutions.com/contact/)
 ## Compatibility
 ### What Platform(s) are supported?
-The initial release of the client is only going to target Windows, but Mac and other devices are definitely on our roadmap. Windows is by and large the easiest operating system to work with when developing a remote access infrastructure, so while it is entirely possible to support RIM on more platforms, the process of implementing support for said platforms may be more involved.
+The RIM client is available for Windows and Mac OS. 
 ### Our company is still using Windows 7. Will RIM work under this configuration?
-Yes, RIM supports Windows 7.
+Yes, RIM supports Windows 7 and will continue to do so until early 2024.
 ## Connection Information
 ### Generally speaking, how responsive is RIM?
 The roundtrip latency during an RIM session is extremely minimal. Because we don't rely on a central service, most of the time your connections are direct from one computer to another - this is what is known as peer-to-peer. If your network configuration doesn't allow for peer-to-peer connections, we fall back to any number of relays located around the world rather than relying on one central server. Thus, even then your latency will still be farely minimal.
